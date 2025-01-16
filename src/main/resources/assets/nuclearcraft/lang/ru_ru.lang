@@ -1,5 +1,7 @@
 # Original translation by Artenaft69
 # Updated and rebrewed by Karl F. Meinkopf (aka TheDeadFerryman)
+
+# Corrected by Golyb007
 # DISCLAIMER: The translation still have many aspects to improve!
 
 tile.nuclearcraft.ore.copper.name=Медная руда
@@ -49,10 +51,10 @@ tile.nuclearcraft.fertile_isotope.curium.name=Блок кюрия-246
 tile.nuclearcraft.fertile_isotope.berkelium.name=Блок беркелия-247
 tile.nuclearcraft.fertile_isotope.californium.name=Блок калифорния-252
 
-tile.nuclearcraft.supercold_ice.name=Сверхохлаженный лед
+tile.nuclearcraft.supercold_ice.name=Сверхохлаженный лёд
 
 tile.nuclearcraft.nuclear_furnace.name=Ядерная печь
-tile.nuclearcraft.nuclear_furnace.desc=Очень быстро расплавляет предметы, используя в качестве топлива урановые слитки и пыль.
+tile.nuclearcraft.nuclear_furnace.desc=Очень быстро плавит предметы, используя в качестве топлива урановые слитки и пыль.
 
 tile.nuclearcraft.manufactory.name=Мануфактура
 tile.nuclearcraft.manufactory.desc=Удобная машина со множеством применений.
@@ -78,7 +80,7 @@ tile.nuclearcraft.melter.desc=Плавит материалы.
 tile.nuclearcraft.supercooler.name=Суперохладитель
 tile.nuclearcraft.supercooler.desc=Понижает температуру жидкостей.
 
-tile.nuclearcraft.electrolyzer.name=Электролизер
+tile.nuclearcraft.electrolyzer.name=Электролизёр
 tile.nuclearcraft.electrolyzer.desc=Разделяет соединения на элементы.
 
 tile.nuclearcraft.assembler.name=Сборщик
@@ -97,7 +99,7 @@ tile.nuclearcraft.salt_mixer.name=Смеситель
 tile.nuclearcraft.salt_mixer.desc=Смешивает жидкости вместе.
 
 tile.nuclearcraft.crystallizer.name=Кристаллизатор
-tile.nuclearcraft.crystallizer.desc=Осаждает твердые частицы из раствора.
+tile.nuclearcraft.crystallizer.desc=Осаждает твёрдые частицы из раствора.
 
 tile.nuclearcraft.enricher.name=Обогатитель жидкостей
 tile.nuclearcraft.enricher.desc=Обогащение жидкостей материалами.
@@ -112,7 +114,7 @@ tile.nuclearcraft.rock_crusher.name=Камнедробилка
 tile.nuclearcraft.rock_crusher.desc=Разбивает породу для получения минеральной пыли.
 
 tile.nuclearcraft.machine_interface.name=Машинный интерфейс
-tile.nuclearcraft.machine_interface.desc=Расширяет интерфейс автоматизации машины. Может быть присоединен не более чем к одной машине.
+tile.nuclearcraft.machine_interface.desc=Расширяет интерфейс автоматизации машины. Может быть присоединён не более чем к одной машине.
 
 tile.nuclearcraft.bin.name=Универсальная корзина
 tile.nuclearcraft.bin.desc=Уничтожает предметы, жидкости и энергию.
@@ -288,16 +290,16 @@ tile.nuclearcraft.heat_exchanger_glass.name=Прозрачная оболочк�
 tile.nuclearcraft.heat_exchanger_vent.name=Вентиль теплообменника
 tile.nuclearcraft.heat_exchanger_vent.desc=Используется для ввода-вывода жидкостей в теплообменник.
 tile.nuclearcraft.heat_exchanger_tube_copper.name=Медная труба теплообменника
-tile.nuclearcraft.heat_exchanger_tube_hard_carbon.name=Труба теплообменника из твердого углерода
+tile.nuclearcraft.heat_exchanger_tube_hard_carbon.name=Труба теплообменника из твёрдого углерода
 tile.nuclearcraft.heat_exchanger_tube_thermoconducting.name=Труба теплообменника из теплопроводящего сплава
 tile.nuclearcraft.heat_exchanger_tube.fixd=Теплопроводность: %s
-tile.nuclearcraft.heat_exchanger_tube.desc=Теплообменная труба для жидкости. Если труба нагревается/охлаждается и прилегает к охлаждающей/нагревательной трубе, тепло будет приниматься/отдаваться со скоростью, пропорциональной тепловыделению рецепта прилегающей трубы. Если объем выделяемого тепла используемых жидкостей не равен по модулю, трубы не должны быть параллельными. Присядьте при установке для копирования конфигурации трубы.
+tile.nuclearcraft.heat_exchanger_tube.desc=Теплообменная труба для жидкости. Если труба нагревается/охлаждается и прилегает к охлаждающей/нагревательной трубе, тепло будет приниматься/отдаваться со скоростью, пропорциональной тепловыделению рецепта прилегающей трубы. Если объём выделяемого тепла используемых жидкостей не равен по модулю, трубы не должны быть параллельными. Присядьте при установке для копирования конфигурации трубы.
 tile.nuclearcraft.heat_exchanger_computer_port.name=Порт контроллера теплообменника
 tile.nuclearcraft.heat_exchanger_computer_port.desc=Используется для доступа к теплообменнику через OpenComputers.
 
 tile.nuclearcraft.condenser_controller.name=Контроллер пароконденсатора (МУЛЬТИБЛОК РАЗРУШЕН!)
 tile.nuclearcraft.condenser_tube_copper.name=Медная труба пароконденсатора
-tile.nuclearcraft.condenser_tube_hard_carbon.name=Труба пароконденсатора из твердого углерода
+tile.nuclearcraft.condenser_tube_hard_carbon.name=Труба пароконденсатора из твёрдого углерода
 tile.nuclearcraft.condenser_tube_thermoconducting.name=Труба пароконденсатора из теплопроводящего сплава
 tile.nuclearcraft.condenser_tube.fixd=Теплопроводность: %s
 tile.nuclearcraft.condenser_tube.desc=Конденсационный канал для жидкости. Скорость конденсации пропорциональна количеству соседних блоков жидкости холоднее, чем температура входной жидкости; чем холоднее жидкость в прилегающей трубе, тем быстрее конденсация - бонус к скорости равен натуральному логарифму отношения температур жидкостей. Присядьте при установке для копирования конфигурации трубы.
@@ -313,10 +315,10 @@ tile.nuclearcraft.turbine_rotor_blade_extreme.name=Лопатка ротора �
 tile.nuclearcraft.turbine_rotor_blade_sic_sic_cmc.name=Лопатка ротора турбины SiC-SiC CMC
 tile.nuclearcraft.turbine_rotor_blade_efficiency.fixd=Эффективность: %s
 tile.nuclearcraft.turbine_rotor_blade_expansion.fixd=Коэффициент расширения: %s
-tile.nuclearcraft.turbine_rotor_blade.desc=Используется для преобразования энергии потока жидкости или газа в энергию вращения вала ротора. Коэффициент расширения больше единицы, поэтому объем потока жидкости будет увеличиваться каждый раз, когда он проходит через сегмент. Сегмент формируется из полного набора лопастей, расположенных в одной плоскости с каждой стороны вала турбины. Каждый сегмент может обрабатывать до %s жидкости/газа.
+tile.nuclearcraft.turbine_rotor_blade.desc=Используется для преобразования энергии потока жидкости или газа в энергию вращения вала ротора. Коэффициент расширения больше единицы, поэтому объём потока жидкости будет увеличиваться каждый раз, когда он проходит через сегмент. Сегмент формируется из полного набора лопастей, расположенных в одной плоскости с каждой стороны вала турбины. Каждый сегмент может обрабатывать до %s жидкости/газа.
 tile.nuclearcraft.turbine_rotor_stator.name=Статор ротора турбины
 tile.nuclearcraft.turbine_rotor_stator_expansion.fixd=Коэффициент расширения: %s
-tile.nuclearcraft.turbine_rotor_stator.desc=Используется для увеличения плотности встречного потока жидкости, что может повысить эффективность турбины за счет противодействия избыточному расширению, создаваемому роторными сегментами. Сегмент формируется из полного набора лопастей, расположенных в одной плоскости с каждой стороны вала турбины.
+tile.nuclearcraft.turbine_rotor_stator.desc=Используется для увеличения плотности встречного потока жидкости, что может повысить эффективность турбины за счёт противодействия избыточному расширению, создаваемому роторными сегментами. Сегмент формируется из полного набора лопастей, расположенных в одной плоскости с каждой стороны вала турбины.
 tile.nuclearcraft.turbine_rotor_bearing.name=Подшипник ротора турбины
 tile.nuclearcraft.turbine_rotor_bearing.desc=Соединяет вал ротора со стенкой турбины и динамо-машиной. Должен покрывать всю площадь каждого конца вала. Катушки динамо-машины прикреплены к подшипникам; подключение как минимум такого же количества катушек, как и блоков подшипников на каждом конце, позволит избежать снижения эффективности.
 tile.nuclearcraft.turbine_dynamo_coil.magnesium.name=Магниевая катушка динамо-машины
@@ -354,7 +356,7 @@ tile.nuclearcraft.radiation_scrubber.desc=Снижает уровень ради
 tile.nuclearcraft.radiation_scrubber_non_linear.desc=Снижает уровень радиации в чанке, в котором находится. Эффективность зависит от количества свободного пространства вокруг очистителя. Удаляет максимум %s излучения в своем чанке с %s эффективностью. Коллективный вклад всех очистителей в чанка будет складываться нелинейно: начиная с почти линейной скорости падения до дважды экспоненциальной. Эффективность и требуемая мощность зависят от используемого средства очистки от радиации.
 nuclearcraft.one_hundred_percent=100%
 
-tile.nuclearcraft.geiger_block.name=Блок счетчика Гейгера
+tile.nuclearcraft.geiger_block.name=Блок счётчика Гейгера
 tile.nuclearcraft.geiger_block.desc=Считывает уровень радиации чанка, в котором находится.
 
 tile.nuclearcraft.glowing_mushroom.name=Светящийся гриб
@@ -482,7 +484,7 @@ tile.nuclearcraft.fluid_liquid_nitrogen.name=Жидкий азот
 fluid.liquid_nitrogen=Жидкий азот
 
 tile.nuclearcraft.fluid_heavy_water.name=Тяжелая вода
-fluid.heavy_water=Тяжелая вода
+fluid.heavy_water=Тяжёлая вода
 
 tile.nuclearcraft.fluid_ender.name=Расплавленный эндер-жемчуг
 fluid.ender=Расплавленный эндер-жемчуг
@@ -521,8 +523,8 @@ fluid.ferroboron=Ферроборный расплав
 tile.nuclearcraft.fluid_tough.name=Расплавленный прочный сплав
 fluid.tough=Расплавленный прочный сплав
 
-tile.nuclearcraft.fluid_hard_carbon.name=Расплавленный твердый углерод
-fluid.hard_carbon=Расплавленный твердый углерод
+tile.nuclearcraft.fluid_hard_carbon.name=Расплавленный твёрдый углерод
+fluid.hard_carbon=Расплавленный твёрдый углерод
 
 tile.nuclearcraft.fluid_coal.name=Сжиженный уголь
 fluid.coal=Сжиженный уголь
@@ -606,14 +608,14 @@ tile.nuclearcraft.fluid_corium.name=Кориум
 tile.nuclearcraft.fluid_corium.desc=Ядовитая, расплавленная смесь топлива и компонентов, образующаяся при расплавлении ядерных реакторов.
 fluid.corium=Кориум
 
-tile.nuclearcraft.fluid_ice.name=Дробленый лед
-fluid.ice=Дробленый лед
+tile.nuclearcraft.fluid_ice.name=Дроблёный лёд
+fluid.ice=Дроблёный лёд
 
 tile.nuclearcraft.fluid_slurry_ice.name=Водо-ледяная суспензия
 fluid.slurry_ice=Водо-ледяная суспензия
 
-tile.nuclearcraft.fluid_chocolate_liquor.name=Шоколадный ликер
-fluid.chocolate_liquor=Шоколадный ликер
+tile.nuclearcraft.fluid_chocolate_liquor.name=Шоколадный ликёр
+fluid.chocolate_liquor=Шоколадный ликёр
 
 tile.nuclearcraft.fluid_cocoa_butter.name=Кокосовое масло
 fluid.cocoa_butter=Кокосовое масло
@@ -621,8 +623,8 @@ fluid.cocoa_butter=Кокосовое масло
 tile.nuclearcraft.fluid_unsweetened_chocolate.name=Расплавленный горький шоколад
 fluid.unsweetened_chocolate=Расплавленный горький шоколад
 
-tile.nuclearcraft.fluid_dark_chocolate.name=Расплавленный темный шоколад
-fluid.dark_chocolate=Расплавленный темный шоколад
+tile.nuclearcraft.fluid_dark_chocolate.name=Расплавленный тёмный шоколад
+fluid.dark_chocolate=Расплавленный тёмный шоколад
 
 tile.nuclearcraft.fluid_milk_chocolate.name=Расплавленный молочный шоколад
 fluid.milk_chocolate=Расплавленный молочный шоколад
@@ -1073,248 +1075,248 @@ fluid.hecf_251_fluoride_flibe=Расплав FLiBe-фторид HECf-251
 tile.nuclearcraft.fluid_hecf_251_za.name=Расплав HECf-251-цирконий
 fluid.hecf_251_za=Расплав HECf-251-цирконий
 
-tile.nuclearcraft.fluid_depleted_tbu.name=Расплавленное обедненное топливо TBU
-fluid.depleted_tbu=Расплавленное обедненное топливо TBU
-tile.nuclearcraft.fluid_depleted_tbu_fluoride.name=Расплавленное обедненное фторидное топливо TBU
-fluid.depleted_tbu_fluoride=Расплавленное обедненное фторидное топливо TBU
-tile.nuclearcraft.fluid_depleted_tbu_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид TBU
-fluid.depleted_tbu_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид TBU
-tile.nuclearcraft.fluid_depleted_tbu_za.name=Расплав обедненного топлива TBU-цирконий
-fluid.depleted_tbu_za=Расплав обедненного топлива TBU-цирконий
+tile.nuclearcraft.fluid_depleted_tbu.name=Расплавленное обеднённое топливо TBU
+fluid.depleted_tbu=Расплавленное обеднённое топливо TBU
+tile.nuclearcraft.fluid_depleted_tbu_fluoride.name=Расплавленное обеднённое фторидное топливо TBU
+fluid.depleted_tbu_fluoride=Расплавленное обеднённое фторидное топливо TBU
+tile.nuclearcraft.fluid_depleted_tbu_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид TBU
+fluid.depleted_tbu_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид TBU
+tile.nuclearcraft.fluid_depleted_tbu_za.name=Расплав обеднённого топлива TBU-цирконий
+fluid.depleted_tbu_za=Расплав обеднённого топлива TBU-цирконий
 
-tile.nuclearcraft.fluid_depleted_leu_233.name=Расплавленное обедненное топливо LEU-233
-fluid.depleted_leu_233=Расплавленное обедненное топливо LEU-233
-tile.nuclearcraft.fluid_depleted_leu_233_fluoride.name=Расплавленное обедненное фторидное топливо LEU-233
-fluid.depleted_leu_233_fluoride=Расплавленное обедненное фторидное топливо LEU-233
-tile.nuclearcraft.fluid_depleted_leu_233_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид LEU-233
-fluid.depleted_leu_233_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид LEU-233
-tile.nuclearcraft.fluid_depleted_leu_233_za.name=Расплав обедненного топлива LEU-233-цирконий
-fluid.depleted_leu_233_za=Расплав обедненного топлива LEU-233-цирконий
+tile.nuclearcraft.fluid_depleted_leu_233.name=Расплавленное обеднённое топливо LEU-233
+fluid.depleted_leu_233=Расплавленное обеднённое топливо LEU-233
+tile.nuclearcraft.fluid_depleted_leu_233_fluoride.name=Расплавленное обеднённое фторидное топливо LEU-233
+fluid.depleted_leu_233_fluoride=Расплавленное обеднённое фторидное топливо LEU-233
+tile.nuclearcraft.fluid_depleted_leu_233_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид LEU-233
+fluid.depleted_leu_233_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид LEU-233
+tile.nuclearcraft.fluid_depleted_leu_233_za.name=Расплав обеднённого топлива LEU-233-цирконий
+fluid.depleted_leu_233_za=Расплав обеднённого топлива LEU-233-цирконий
 
-tile.nuclearcraft.fluid_depleted_heu_233.name=Расплавленное обедненное топливо HEU-233
-fluid.depleted_heu_233=Расплавленное обедненное топливо HEU-233
-tile.nuclearcraft.fluid_depleted_heu_233_fluoride.name=Расплавленное обедненное фторидное топливо HEU-233
-fluid.depleted_heu_233_fluoride=Расплавленное обедненное фторидное топливо HEU-233
-tile.nuclearcraft.fluid_depleted_heu_233_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид HEU-233
-fluid.depleted_heu_233_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид HEU-233
-tile.nuclearcraft.fluid_depleted_heu_233_za.name=Расплав обедненного топлива HEU-233-цирконий
-fluid.depleted_heu_233_za=Расплав обедненного топлива HEU-233-цирконий
+tile.nuclearcraft.fluid_depleted_heu_233.name=Расплавленное обеднённое топливо HEU-233
+fluid.depleted_heu_233=Расплавленное обеднённое топливо HEU-233
+tile.nuclearcraft.fluid_depleted_heu_233_fluoride.name=Расплавленное обеднённое фторидное топливо HEU-233
+fluid.depleted_heu_233_fluoride=Расплавленное обеднённое фторидное топливо HEU-233
+tile.nuclearcraft.fluid_depleted_heu_233_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид HEU-233
+fluid.depleted_heu_233_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид HEU-233
+tile.nuclearcraft.fluid_depleted_heu_233_za.name=Расплав обеднённого топлива HEU-233-цирконий
+fluid.depleted_heu_233_za=Расплав обеднённого топлива HEU-233-цирконий
 
-tile.nuclearcraft.fluid_depleted_leu_235.name=Расплавленное обедненное топливо LEU-235
-fluid.depleted_leu_235=Расплавленное обедненное топливо LEU-235
-tile.nuclearcraft.fluid_depleted_leu_235_fluoride.name=Расплавленное обедненное фторидное топливо LEU-235
-fluid.depleted_leu_235_fluoride=Расплавленное обедненное фторидное топливо LEU-235
-tile.nuclearcraft.fluid_depleted_leu_235_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид LEU-235
-fluid.depleted_leu_235_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид LEU-235
-tile.nuclearcraft.fluid_depleted_leu_235_za.name=Расплав обедненного топлива LEU-235-цирконий
-fluid.depleted_leu_235_za=Расплав обедненного топлива LEU-235-цирконий
+tile.nuclearcraft.fluid_depleted_leu_235.name=Расплавленное обеднённое топливо LEU-235
+fluid.depleted_leu_235=Расплавленное обеднённое топливо LEU-235
+tile.nuclearcraft.fluid_depleted_leu_235_fluoride.name=Расплавленное обеднённое фторидное топливо LEU-235
+fluid.depleted_leu_235_fluoride=Расплавленное обеднённое фторидное топливо LEU-235
+tile.nuclearcraft.fluid_depleted_leu_235_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид LEU-235
+fluid.depleted_leu_235_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид LEU-235
+tile.nuclearcraft.fluid_depleted_leu_235_za.name=Расплав обеднённого топлива LEU-235-цирконий
+fluid.depleted_leu_235_za=Расплав обеднённого топлива LEU-235-цирконий
 
-tile.nuclearcraft.fluid_depleted_heu_235.name=Расплавленное обедненное топливо HEU-235
-fluid.depleted_heu_235=Расплавленное обедненное топливо HEU-235
-tile.nuclearcraft.fluid_depleted_heu_235_fluoride.name=Расплавленное обедненное фторидное топливо HEU-235
-fluid.depleted_heu_235_fluoride=Расплавленное обедненное фторидное топливо HEU-235
-tile.nuclearcraft.fluid_depleted_heu_235_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид HEU-235
-fluid.depleted_heu_235_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид HEU-235
-tile.nuclearcraft.fluid_depleted_heu_235_za.name=Расплав обедненного топлива HEU-235-цирконий
-fluid.depleted_heu_235_za=Расплав обедненного топлива HEU-235-цирконий
+tile.nuclearcraft.fluid_depleted_heu_235.name=Расплавленное обеднённое топливо HEU-235
+fluid.depleted_heu_235=Расплавленное обеднённое топливо HEU-235
+tile.nuclearcraft.fluid_depleted_heu_235_fluoride.name=Расплавленное обеднённое фторидное топливо HEU-235
+fluid.depleted_heu_235_fluoride=Расплавленное обеднённое фторидное топливо HEU-235
+tile.nuclearcraft.fluid_depleted_heu_235_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид HEU-235
+fluid.depleted_heu_235_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид HEU-235
+tile.nuclearcraft.fluid_depleted_heu_235_za.name=Расплав обеднённого топлива HEU-235-цирконий
+fluid.depleted_heu_235_za=Расплав обеднённого топлива HEU-235-цирконий
 
-tile.nuclearcraft.fluid_depleted_len_236.name=Расплавленное обедненное топливо LEN-236
-fluid.depleted_len_236=Расплавленное обедненное топливо LEN-236
-tile.nuclearcraft.fluid_depleted_len_236_fluoride.name=Расплавленное обедненное фторидное топливо LEN-236
-fluid.depleted_len_236_fluoride=Расплавленное обедненное фторидное топливо LEN-236
-tile.nuclearcraft.fluid_depleted_len_236_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид LEN-236
-fluid.depleted_len_236_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид LEN-236
-tile.nuclearcraft.fluid_depleted_len_236_za.name=Расплав обедненного топлива LEN-236-цирконий
-fluid.depleted_len_236_za=Расплав обедненного топлива LEN-236-цирконий
+tile.nuclearcraft.fluid_depleted_len_236.name=Расплавленное обеднённое топливо LEN-236
+fluid.depleted_len_236=Расплавленное обеднённое топливо LEN-236
+tile.nuclearcraft.fluid_depleted_len_236_fluoride.name=Расплавленное обеднённое фторидное топливо LEN-236
+fluid.depleted_len_236_fluoride=Расплавленное обеднённое фторидное топливо LEN-236
+tile.nuclearcraft.fluid_depleted_len_236_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид LEN-236
+fluid.depleted_len_236_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид LEN-236
+tile.nuclearcraft.fluid_depleted_len_236_za.name=Расплав обеднённого топлива LEN-236-цирконий
+fluid.depleted_len_236_za=Расплав обеднённого топлива LEN-236-цирконий
 
-tile.nuclearcraft.fluid_depleted_hen_236.name=Расплавленное обедненное топливо HEN-236
-fluid.depleted_hen_236=Расплавленное обедненное топливо HEN-236
-tile.nuclearcraft.fluid_depleted_hen_236_fluoride.name=Расплавленное обедненное фторидное топливо HEN-236
-fluid.depleted_hen_236_fluoride=Расплавленное обедненное фторидное топливо HEN-236
-tile.nuclearcraft.fluid_depleted_hen_236_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид HEN-236
-fluid.depleted_hen_236_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид HEN-236
-tile.nuclearcraft.fluid_depleted_hen_236_za.name=Расплав обедненного топлива HEN-236-цирконий
-fluid.depleted_hen_236_za=Расплав обедненного топлива HEN-236-цирконий
+tile.nuclearcraft.fluid_depleted_hen_236.name=Расплавленное обеднённое топливо HEN-236
+fluid.depleted_hen_236=Расплавленное обеднённое топливо HEN-236
+tile.nuclearcraft.fluid_depleted_hen_236_fluoride.name=Расплавленное обеднённое фторидное топливо HEN-236
+fluid.depleted_hen_236_fluoride=Расплавленное обеднённое фторидное топливо HEN-236
+tile.nuclearcraft.fluid_depleted_hen_236_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид HEN-236
+fluid.depleted_hen_236_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид HEN-236
+tile.nuclearcraft.fluid_depleted_hen_236_za.name=Расплав обеднённого топлива HEN-236-цирконий
+fluid.depleted_hen_236_za=Расплав обеднённого топлива HEN-236-цирконий
 
-tile.nuclearcraft.fluid_depleted_lep_239.name=Расплавленное обедненное топливо LEP-239
-fluid.depleted_lep_239=Расплавленное обедненное топливо LEP-239
-tile.nuclearcraft.fluid_depleted_lep_239_fluoride.name=Расплавленное обедненное фторидное топливо LEP-239
-fluid.depleted_lep_239_fluoride=Расплавленное обедненное фторидное топливо LEP-239
-tile.nuclearcraft.fluid_depleted_lep_239_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид LEP-239
-fluid.depleted_lep_239_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид LEP-239
-tile.nuclearcraft.fluid_depleted_lep_239_za.name=Расплав обедненного топлива LEP-239-цирконий
-fluid.depleted_lep_239_za=Расплав обедненного топлива LEP-239-цирконий
+tile.nuclearcraft.fluid_depleted_lep_239.name=Расплавленное обеднённое топливо LEP-239
+fluid.depleted_lep_239=Расплавленное обеднённое топливо LEP-239
+tile.nuclearcraft.fluid_depleted_lep_239_fluoride.name=Расплавленное обеднённое фторидное топливо LEP-239
+fluid.depleted_lep_239_fluoride=Расплавленное обеднённое фторидное топливо LEP-239
+tile.nuclearcraft.fluid_depleted_lep_239_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид LEP-239
+fluid.depleted_lep_239_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид LEP-239
+tile.nuclearcraft.fluid_depleted_lep_239_za.name=Расплав обеднённого топлива LEP-239-цирконий
+fluid.depleted_lep_239_za=Расплав обеднённого топлива LEP-239-цирконий
 
-tile.nuclearcraft.fluid_depleted_hep_239.name=Расплавленное обедненное топливо HEP-239
-fluid.depleted_hep_239=Расплавленное обедненное топливо HEP-239
-tile.nuclearcraft.fluid_depleted_hep_239_fluoride.name=Расплавленное обедненное фторидное топливо HEP-239
-fluid.depleted_hep_239_fluoride=Расплавленное обедненное фторидное топливо HEP-239
-tile.nuclearcraft.fluid_depleted_hep_239_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид HEP-239
-fluid.depleted_hep_239_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид HEP-239
-tile.nuclearcraft.fluid_depleted_hep_239_za.name=Расплав обедненного топлива HEP-239-цирконий
-fluid.depleted_hep_239_za=Расплав обедненного топлива HEP-239-цирконий
+tile.nuclearcraft.fluid_depleted_hep_239.name=Расплавленное обеднённое топливо HEP-239
+fluid.depleted_hep_239=Расплавленное обеднённое топливо HEP-239
+tile.nuclearcraft.fluid_depleted_hep_239_fluoride.name=Расплавленное обеднённое фторидное топливо HEP-239
+fluid.depleted_hep_239_fluoride=Расплавленное обеднённое фторидное топливо HEP-239
+tile.nuclearcraft.fluid_depleted_hep_239_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид HEP-239
+fluid.depleted_hep_239_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид HEP-239
+tile.nuclearcraft.fluid_depleted_hep_239_za.name=Расплав обеднённого топлива HEP-239-цирконий
+fluid.depleted_hep_239_za=Расплав обеднённого топлива HEP-239-цирконий
 
-tile.nuclearcraft.fluid_depleted_lep_241.name=Расплавленное обедненное топливо LEP-241
-fluid.depleted_lep_241=Расплавленное обедненное топливо LEP-241
-tile.nuclearcraft.fluid_depleted_lep_241_fluoride.name=Расплавленное обедненное фторидное топливо LEP-241
-fluid.depleted_lep_241_fluoride=Расплавленное обедненное фторидное топливо LEP-241
-tile.nuclearcraft.fluid_depleted_lep_241_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид LEP-241
-fluid.depleted_lep_241_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид LEP-241
-tile.nuclearcraft.fluid_depleted_lep_241_za.name=Расплав обедненного топлива LEP-241-цирконий
-fluid.depleted_lep_241_za=Расплав обедненного топлива LEP-241-цирконий
+tile.nuclearcraft.fluid_depleted_lep_241.name=Расплавленное обеднённое топливо LEP-241
+fluid.depleted_lep_241=Расплавленное обеднённое топливо LEP-241
+tile.nuclearcraft.fluid_depleted_lep_241_fluoride.name=Расплавленное обеднённое фторидное топливо LEP-241
+fluid.depleted_lep_241_fluoride=Расплавленное обеднённое фторидное топливо LEP-241
+tile.nuclearcraft.fluid_depleted_lep_241_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид LEP-241
+fluid.depleted_lep_241_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид LEP-241
+tile.nuclearcraft.fluid_depleted_lep_241_za.name=Расплав обеднённого топлива LEP-241-цирконий
+fluid.depleted_lep_241_za=Расплав обеднённого топлива LEP-241-цирконий
 
-tile.nuclearcraft.fluid_depleted_hep_241.name=Расплавленное обедненное топливо HEP-241
-fluid.depleted_hep_241=Расплавленное обедненное топливо HEP-241
-tile.nuclearcraft.fluid_depleted_hep_241_fluoride.name=Расплавленное обедненное фторидное топливо HEP-241
-fluid.depleted_hep_241_fluoride=Расплавленное обедненное фторидное топливо HEP-241
-tile.nuclearcraft.fluid_depleted_hep_241_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид HEP-241
-fluid.depleted_hep_241_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид HEP-241
-tile.nuclearcraft.fluid_depleted_hep_241_za.name=Расплав обедненного топлива HEP-241-цирконий
-fluid.depleted_hep_241_za=Расплав обедненного топлива HEP-241-цирконий
+tile.nuclearcraft.fluid_depleted_hep_241.name=Расплавленное обеднённое топливо HEP-241
+fluid.depleted_hep_241=Расплавленное обеднённое топливо HEP-241
+tile.nuclearcraft.fluid_depleted_hep_241_fluoride.name=Расплавленное обеднённое фторидное топливо HEP-241
+fluid.depleted_hep_241_fluoride=Расплавленное обеднённое фторидное топливо HEP-241
+tile.nuclearcraft.fluid_depleted_hep_241_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид HEP-241
+fluid.depleted_hep_241_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид HEP-241
+tile.nuclearcraft.fluid_depleted_hep_241_za.name=Расплав обеднённого топлива HEP-241-цирконий
+fluid.depleted_hep_241_za=Расплав обеднённого топлива HEP-241-цирконий
 
-tile.nuclearcraft.fluid_depleted_mix_239.name=Расплавленное обедненное топливо-239
-fluid.depleted_mix_239=Расплавленное обедненное топливо MIX-239
-tile.nuclearcraft.fluid_depleted_mix_239_fluoride.name=Расплавленное обедненное топливо MF4-239
-fluid.depleted_mix_239_fluoride=Расплавленное обедненное топливо MF4-239
-tile.nuclearcraft.fluid_depleted_mix_239_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид MF4-239
-fluid.depleted_mix_239_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид MF4-239
-tile.nuclearcraft.fluid_depleted_mix_239_za.name=Расплавленное обедненное топливо MZA-239
-fluid.depleted_mix_239_za=Расплавленное обедненное топливо MZA-239
+tile.nuclearcraft.fluid_depleted_mix_239.name=Расплавленное обеднённое топливо-239
+fluid.depleted_mix_239=Расплавленное обеднённое топливо MIX-239
+tile.nuclearcraft.fluid_depleted_mix_239_fluoride.name=Расплавленное обеднённое топливо MF4-239
+fluid.depleted_mix_239_fluoride=Расплавленное обеднённое топливо MF4-239
+tile.nuclearcraft.fluid_depleted_mix_239_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид MF4-239
+fluid.depleted_mix_239_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид MF4-239
+tile.nuclearcraft.fluid_depleted_mix_239_za.name=Расплавленное обеднённое топливо MZA-239
+fluid.depleted_mix_239_za=Расплавленное обеднённое топливо MZA-239
 
-tile.nuclearcraft.fluid_depleted_mix_241.name=Расплавленное обедненное топливо MIX-241
-fluid.depleted_mix_241=Расплавленное обедненное топливо MIX-241
-tile.nuclearcraft.fluid_depleted_mix_241_fluoride.name=Расплавленное обедненное топливо MF4-241
-fluid.depleted_mix_241_fluoride=Расплавленное обедненное топливо MF4-241
-tile.nuclearcraft.fluid_depleted_mix_241_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид MF4-241
-fluid.depleted_mix_241_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид MF4-241
-tile.nuclearcraft.fluid_depleted_mix_241_za.name=Расплавленное обедненное топливо MZA-241
-fluid.depleted_mix_241_za=Расплавленное обедненное топливо MZA-241
+tile.nuclearcraft.fluid_depleted_mix_241.name=Расплавленное обеднённое топливо MIX-241
+fluid.depleted_mix_241=Расплавленное обеднённое топливо MIX-241
+tile.nuclearcraft.fluid_depleted_mix_241_fluoride.name=Расплавленное обеднённое топливо MF4-241
+fluid.depleted_mix_241_fluoride=Расплавленное обеднённое топливо MF4-241
+tile.nuclearcraft.fluid_depleted_mix_241_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид MF4-241
+fluid.depleted_mix_241_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид MF4-241
+tile.nuclearcraft.fluid_depleted_mix_241_za.name=Расплавленное обеднённое топливо MZA-241
+fluid.depleted_mix_241_za=Расплавленное обеднённое топливо MZA-241
 
-tile.nuclearcraft.fluid_depleted_lea_242.name=Расплавленное обедненное топливо LEA-242
-fluid.depleted_lea_242=Расплавленное обедненное топливо LEA-242
-tile.nuclearcraft.fluid_depleted_lea_242_fluoride.name=Расплавленное обедненное фторидное топливо LEA-242
-fluid.depleted_lea_242_fluoride=Расплавленное обедненное фторидное топливо LEA-242
-tile.nuclearcraft.fluid_depleted_lea_242_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид LEA-242
-fluid.depleted_lea_242_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид LEA-242
-tile.nuclearcraft.fluid_depleted_lea_242_za.name=Расплав обедненного топлива LEA-242-цирконий
-fluid.depleted_lea_242_za=Расплав обедненного топлива LEA-242-цирконий
+tile.nuclearcraft.fluid_depleted_lea_242.name=Расплавленное обеднённое топливо LEA-242
+fluid.depleted_lea_242=Расплавленное обеднённое топливо LEA-242
+tile.nuclearcraft.fluid_depleted_lea_242_fluoride.name=Расплавленное обеднённое фторидное топливо LEA-242
+fluid.depleted_lea_242_fluoride=Расплавленное обеднённое фторидное топливо LEA-242
+tile.nuclearcraft.fluid_depleted_lea_242_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид LEA-242
+fluid.depleted_lea_242_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид LEA-242
+tile.nuclearcraft.fluid_depleted_lea_242_za.name=Расплав обеднённого топлива LEA-242-цирконий
+fluid.depleted_lea_242_za=Расплав обеднённого топлива LEA-242-цирконий
 
-tile.nuclearcraft.fluid_depleted_hea_242.name=Расплавленное обедненное топливо HEA-242
-fluid.depleted_hea_242=Расплавленное обедненное топливо HEA-242
-tile.nuclearcraft.fluid_depleted_hea_242_fluoride.name=Расплавленное обедненное фторидное топливо HEA-242
-fluid.depleted_hea_242_fluoride=Расплавленное обедненное фторидное топливо HEA-242
-tile.nuclearcraft.fluid_depleted_hea_242_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид HEA-242
-fluid.depleted_hea_242_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид HEA-242
-tile.nuclearcraft.fluid_depleted_hea_242_za.name=Расплав обедненного топлива HEA-242-цирконий
-fluid.depleted_hea_242_za=Расплав обедненного топлива HEA-242-цирконий
+tile.nuclearcraft.fluid_depleted_hea_242.name=Расплавленное обеднённое топливо HEA-242
+fluid.depleted_hea_242=Расплавленное обеднённое топливо HEA-242
+tile.nuclearcraft.fluid_depleted_hea_242_fluoride.name=Расплавленное обеднённое фторидное топливо HEA-242
+fluid.depleted_hea_242_fluoride=Расплавленное обеднённое фторидное топливо HEA-242
+tile.nuclearcraft.fluid_depleted_hea_242_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид HEA-242
+fluid.depleted_hea_242_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид HEA-242
+tile.nuclearcraft.fluid_depleted_hea_242_za.name=Расплав обеднённого топлива HEA-242-цирконий
+fluid.depleted_hea_242_za=Расплав обеднённого топлива HEA-242-цирконий
 
-tile.nuclearcraft.fluid_depleted_lecm_243.name=Расплавленное обедненное топливо LECm-243
-fluid.depleted_lecm_243=Расплавленное обедненное топливо LECm-243
-tile.nuclearcraft.fluid_depleted_lecm_243_fluoride.name=Расплавленное обедненное фторидное топливо LECm-243
-fluid.depleted_lecm_243_fluoride=Расплавленное обедненное фторидное топливо LECm-243
-tile.nuclearcraft.fluid_depleted_lecm_243_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид LECm-243
-fluid.depleted_lecm_243_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид LECm-243
-tile.nuclearcraft.fluid_depleted_lecm_243_za.name=Расплав обедненного топлива LECm-243-цирконий
-fluid.depleted_lecm_243_za=Расплав обедненного топлива LECm-243-цирконий
+tile.nuclearcraft.fluid_depleted_lecm_243.name=Расплавленное обеднённое топливо LECm-243
+fluid.depleted_lecm_243=Расплавленное обеднённое топливо LECm-243
+tile.nuclearcraft.fluid_depleted_lecm_243_fluoride.name=Расплавленное обеднённое фторидное топливо LECm-243
+fluid.depleted_lecm_243_fluoride=Расплавленное обеднённое фторидное топливо LECm-243
+tile.nuclearcraft.fluid_depleted_lecm_243_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид LECm-243
+fluid.depleted_lecm_243_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид LECm-243
+tile.nuclearcraft.fluid_depleted_lecm_243_za.name=Расплав обеднённого топлива LECm-243-цирконий
+fluid.depleted_lecm_243_za=Расплав обеднённого топлива LECm-243-цирконий
 
-tile.nuclearcraft.fluid_depleted_hecm_243.name=Расплавленное обедненное топливо HECm-243
-fluid.depleted_hecm_243=Расплавленное обедненное топливо HECm-243
-tile.nuclearcraft.fluid_depleted_hecm_243_fluoride.name=Расплавленное обедненное фторидное топливо HECm-243
-fluid.depleted_hecm_243_fluoride=Расплавленное обедненное фторидное топливо HECm-243
-tile.nuclearcraft.fluid_depleted_hecm_243_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид HECm-243
-fluid.depleted_hecm_243_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид HECm-243
-tile.nuclearcraft.fluid_depleted_hecm_243_za.name=Расплав обедненного топлива HECm-243-цирконий
-fluid.depleted_hecm_243_za=Расплав обедненного топлива HECm-243-цирконий
+tile.nuclearcraft.fluid_depleted_hecm_243.name=Расплавленное обеднённое топливо HECm-243
+fluid.depleted_hecm_243=Расплавленное обеднённое топливо HECm-243
+tile.nuclearcraft.fluid_depleted_hecm_243_fluoride.name=Расплавленное обеднённое фторидное топливо HECm-243
+fluid.depleted_hecm_243_fluoride=Расплавленное обеднённое фторидное топливо HECm-243
+tile.nuclearcraft.fluid_depleted_hecm_243_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид HECm-243
+fluid.depleted_hecm_243_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид HECm-243
+tile.nuclearcraft.fluid_depleted_hecm_243_za.name=Расплав обеднённого топлива HECm-243-цирконий
+fluid.depleted_hecm_243_za=Расплав обеднённого топлива HECm-243-цирконий
 
-tile.nuclearcraft.fluid_depleted_lecm_245.name=Расплавленное обедненное топливо LECm-245
-fluid.depleted_lecm_245=Расплавленное обедненное топливо LECm-245
-tile.nuclearcraft.fluid_depleted_lecm_245_fluoride.name=Расплавленное обедненное фторидное топливо LECm-245
-fluid.depleted_lecm_245_fluoride=Расплавленное обедненное фторидное топливо LECm-245
-tile.nuclearcraft.fluid_depleted_lecm_245_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид LECm-245
-fluid.depleted_lecm_245_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид LECm-245
-tile.nuclearcraft.fluid_depleted_lecm_245_za.name=Расплав обедненного топлива LECm-245-цирконий
-fluid.depleted_lecm_245_za=Расплав обедненного топлива LECm-245-цирконий
+tile.nuclearcraft.fluid_depleted_lecm_245.name=Расплавленное обеднённое топливо LECm-245
+fluid.depleted_lecm_245=Расплавленное обеднённое топливо LECm-245
+tile.nuclearcraft.fluid_depleted_lecm_245_fluoride.name=Расплавленное обеднённое фторидное топливо LECm-245
+fluid.depleted_lecm_245_fluoride=Расплавленное обеднённое фторидное топливо LECm-245
+tile.nuclearcraft.fluid_depleted_lecm_245_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид LECm-245
+fluid.depleted_lecm_245_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид LECm-245
+tile.nuclearcraft.fluid_depleted_lecm_245_za.name=Расплав обеднённого топлива LECm-245-цирконий
+fluid.depleted_lecm_245_za=Расплав обеднённого топлива LECm-245-цирконий
 
-tile.nuclearcraft.fluid_depleted_hecm_245.name=Расплавленное обедненное топливо HECm-245
-fluid.depleted_hecm_245=Расплавленное обедненное топливо HECm-245
-tile.nuclearcraft.fluid_depleted_hecm_245_fluoride.name=Расплавленное обедненное фторидное топливо HECm-245
-fluid.depleted_hecm_245_fluoride=Расплавленное обедненное фторидное топливо HECm-245
-tile.nuclearcraft.fluid_depleted_hecm_245_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид HECm-245
-fluid.depleted_hecm_245_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид HECm-245
-tile.nuclearcraft.fluid_depleted_hecm_245_za.name=Расплав обедненного топлива HECm-245-цирконий
-fluid.depleted_hecm_245_za=Расплав обедненного топлива HECm-245-цирконий
+tile.nuclearcraft.fluid_depleted_hecm_245.name=Расплавленное обеднённое топливо HECm-245
+fluid.depleted_hecm_245=Расплавленное обеднённое топливо HECm-245
+tile.nuclearcraft.fluid_depleted_hecm_245_fluoride.name=Расплавленное обеднённое фторидное топливо HECm-245
+fluid.depleted_hecm_245_fluoride=Расплавленное обеднённое фторидное топливо HECm-245
+tile.nuclearcraft.fluid_depleted_hecm_245_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид HECm-245
+fluid.depleted_hecm_245_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид HECm-245
+tile.nuclearcraft.fluid_depleted_hecm_245_za.name=Расплав обеднённого топлива HECm-245-цирконий
+fluid.depleted_hecm_245_za=Расплав обеднённого топлива HECm-245-цирконий
 
-tile.nuclearcraft.fluid_depleted_lecm_247.name=Расплавленное обедненное топливо LECm-247
-fluid.depleted_lecm_247=Расплавленное обедненное топливо LECm-247
-tile.nuclearcraft.fluid_depleted_lecm_247_fluoride.name=Расплавленное обедненное фторидное топливо LECm-247
-fluid.depleted_lecm_247_fluoride=Расплавленное обедненное фторидное топливо LECm-247
-tile.nuclearcraft.fluid_depleted_lecm_247_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид LECm-247
-fluid.depleted_lecm_247_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид LECm-247
-tile.nuclearcraft.fluid_depleted_lecm_247_za.name=Расплав обедненного топлива LECm-247-цирконий
-fluid.depleted_lecm_247_za=Расплав обедненного топлива LECm-247-цирконий
+tile.nuclearcraft.fluid_depleted_lecm_247.name=Расплавленное обеднённое топливо LECm-247
+fluid.depleted_lecm_247=Расплавленное обеднённое топливо LECm-247
+tile.nuclearcraft.fluid_depleted_lecm_247_fluoride.name=Расплавленное обеднённое фторидное топливо LECm-247
+fluid.depleted_lecm_247_fluoride=Расплавленное обеднённое фторидное топливо LECm-247
+tile.nuclearcraft.fluid_depleted_lecm_247_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид LECm-247
+fluid.depleted_lecm_247_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид LECm-247
+tile.nuclearcraft.fluid_depleted_lecm_247_za.name=Расплав обеднённого топлива LECm-247-цирконий
+fluid.depleted_lecm_247_za=Расплав обеднённого топлива LECm-247-цирконий
 
-tile.nuclearcraft.fluid_depleted_hecm_247.name=Расплавленное обедненное топливо HECm-247
-fluid.depleted_hecm_247=Расплавленное обедненное топливо HECm-247
-tile.nuclearcraft.fluid_depleted_hecm_247_fluoride.name=Расплавленное обедненное фторидное топливо HECm-247
-fluid.depleted_hecm_247_fluoride=Расплавленное обедненное фторидное топливо HECm-247
-tile.nuclearcraft.fluid_depleted_hecm_247_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид HECm-247
-fluid.depleted_hecm_247_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид HECm-247
-tile.nuclearcraft.fluid_depleted_hecm_247_za.name=Расплав обедненного топлива HECm-247-цирконий
-fluid.depleted_hecm_247_za=Расплав обедненного топлива HECm-247-цирконий
+tile.nuclearcraft.fluid_depleted_hecm_247.name=Расплавленное обеднённое топливо HECm-247
+fluid.depleted_hecm_247=Расплавленное обеднённое топливо HECm-247
+tile.nuclearcraft.fluid_depleted_hecm_247_fluoride.name=Расплавленное обеднённое фторидное топливо HECm-247
+fluid.depleted_hecm_247_fluoride=Расплавленное обеднённое фторидное топливо HECm-247
+tile.nuclearcraft.fluid_depleted_hecm_247_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид HECm-247
+fluid.depleted_hecm_247_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид HECm-247
+tile.nuclearcraft.fluid_depleted_hecm_247_za.name=Расплав обеднённого топлива HECm-247-цирконий
+fluid.depleted_hecm_247_za=Расплав обеднённого топлива HECm-247-цирконий
 
-tile.nuclearcraft.fluid_depleted_leb_248.name=Расплавленное обедненное топливо LEB-248
-fluid.depleted_leb_248=Расплавленное обедненное топливо LEB-248
-tile.nuclearcraft.fluid_depleted_leb_248_fluoride.name=Расплавленное обедненное фторидное топливо LEB-248
-fluid.depleted_leb_248_fluoride=Расплавленное обедненное фторидное топливо LEB-248
-tile.nuclearcraft.fluid_depleted_leb_248_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид LEB-248
-fluid.depleted_leb_248_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид LEB-248
-tile.nuclearcraft.fluid_depleted_leb_248_za.name=Расплав обедненного топлива LEB-248-цирконий
-fluid.depleted_leb_248_za=Расплав обедненного топлива LEB-248-цирконий
+tile.nuclearcraft.fluid_depleted_leb_248.name=Расплавленное обеднённое топливо LEB-248
+fluid.depleted_leb_248=Расплавленное обеднённое топливо LEB-248
+tile.nuclearcraft.fluid_depleted_leb_248_fluoride.name=Расплавленное обеднённое фторидное топливо LEB-248
+fluid.depleted_leb_248_fluoride=Расплавленное обеднённое фторидное топливо LEB-248
+tile.nuclearcraft.fluid_depleted_leb_248_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид LEB-248
+fluid.depleted_leb_248_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид LEB-248
+tile.nuclearcraft.fluid_depleted_leb_248_za.name=Расплав обеднённого топлива LEB-248-цирконий
+fluid.depleted_leb_248_za=Расплав обеднённого топлива LEB-248-цирконий
 
-tile.nuclearcraft.fluid_depleted_heb_248.name=Расплавленное обедненное топливо HEB-248
-fluid.depleted_heb_248=Расплавленное обедненное топливо HEB-248
-tile.nuclearcraft.fluid_depleted_heb_248_fluoride.name=Расплавленное обедненное фторидное топливо HEB-248
-fluid.depleted_heb_248_fluoride=Расплавленное обедненное фторидное топливо HEB-248
-tile.nuclearcraft.fluid_depleted_heb_248_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид HEB-248
-fluid.depleted_heb_248_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид HEB-248
-tile.nuclearcraft.fluid_depleted_heb_248_za.name=Расплав обедненного топлива HEB-248-цирконий
-fluid.depleted_heb_248_za=Расплав обедненного топлива HEB-248-цирконий
+tile.nuclearcraft.fluid_depleted_heb_248.name=Расплавленное обеднённое топливо HEB-248
+fluid.depleted_heb_248=Расплавленное обеднённое топливо HEB-248
+tile.nuclearcraft.fluid_depleted_heb_248_fluoride.name=Расплавленное обеднённое фторидное топливо HEB-248
+fluid.depleted_heb_248_fluoride=Расплавленное обеднённое фторидное топливо HEB-248
+tile.nuclearcraft.fluid_depleted_heb_248_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид HEB-248
+fluid.depleted_heb_248_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид HEB-248
+tile.nuclearcraft.fluid_depleted_heb_248_za.name=Расплав обеднённого топлива HEB-248-цирконий
+fluid.depleted_heb_248_za=Расплав обеднённого топлива HEB-248-цирконий
 
-tile.nuclearcraft.fluid_depleted_lecf_249.name=Расплавленное обедненное топливо LECf-249
-fluid.depleted_lecf_249=Расплавленное обедненное топливо LECf-249
-tile.nuclearcraft.fluid_depleted_lecf_249_fluoride.name=Расплавленное обедненное фторидное топливо LECf-249
-fluid.depleted_lecf_249_fluoride=Расплавленное обедненное фторидное топливо LECf-249
-tile.nuclearcraft.fluid_depleted_lecf_249_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид LECf-249
-fluid.depleted_lecf_249_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид LECf-249
-tile.nuclearcraft.fluid_depleted_lecf_249_za.name=Расплав обедненного топлива LECf-249-цирконий
-fluid.depleted_lecf_249_za=Расплав обедненного топлива LECf-249-цирконий
+tile.nuclearcraft.fluid_depleted_lecf_249.name=Расплавленное обеднённое топливо LECf-249
+fluid.depleted_lecf_249=Расплавленное обеднённое топливо LECf-249
+tile.nuclearcraft.fluid_depleted_lecf_249_fluoride.name=Расплавленное обеднённое фторидное топливо LECf-249
+fluid.depleted_lecf_249_fluoride=Расплавленное обеднённое фторидное топливо LECf-249
+tile.nuclearcraft.fluid_depleted_lecf_249_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид LECf-249
+fluid.depleted_lecf_249_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид LECf-249
+tile.nuclearcraft.fluid_depleted_lecf_249_za.name=Расплав обеднённого топлива LECf-249-цирконий
+fluid.depleted_lecf_249_za=Расплав обеднённого топлива LECf-249-цирконий
 
-tile.nuclearcraft.fluid_depleted_hecf_249.name=Расплавленное обедненное топливо HECf-249
-fluid.depleted_hecf_249=Расплавленное обедненное топливо HECf-249
-tile.nuclearcraft.fluid_depleted_hecf_249_fluoride.name=Расплавленное обедненное фторидное топливо HECf-249
-fluid.depleted_hecf_249_fluoride=Расплавленное обедненное фторидное топливо HECf-249
-tile.nuclearcraft.fluid_depleted_hecf_249_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид HECf-249
-fluid.depleted_hecf_249_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид HECf-249
-tile.nuclearcraft.fluid_depleted_hecf_249_za.name=Расплав обедненного топлива HECf-249-цирконий
-fluid.depleted_hecf_249_za=Расплав обедненного топлива HECf-249-цирконий
+tile.nuclearcraft.fluid_depleted_hecf_249.name=Расплавленное обеднённое топливо HECf-249
+fluid.depleted_hecf_249=Расплавленное обеднённое топливо HECf-249
+tile.nuclearcraft.fluid_depleted_hecf_249_fluoride.name=Расплавленное обеднённое фторидное топливо HECf-249
+fluid.depleted_hecf_249_fluoride=Расплавленное обеднённое фторидное топливо HECf-249
+tile.nuclearcraft.fluid_depleted_hecf_249_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид HECf-249
+fluid.depleted_hecf_249_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид HECf-249
+tile.nuclearcraft.fluid_depleted_hecf_249_za.name=Расплав обеднённого топлива HECf-249-цирконий
+fluid.depleted_hecf_249_za=Расплав обеднённого топлива HECf-249-цирконий
 
-tile.nuclearcraft.fluid_depleted_lecf_251.name=Расплавленное обедненное топливо LECf-251
-fluid.depleted_lecf_251=Расплавленное обедненное топливо LECf-251
-tile.nuclearcraft.fluid_depleted_lecf_251_fluoride.name=Расплавленное обедненное фторидное топливо LECf-251
-fluid.depleted_lecf_251_fluoride=Расплавленное обедненное фторидное топливо LECf-251
-tile.nuclearcraft.fluid_depleted_lecf_251_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид LECf-251
-fluid.depleted_lecf_251_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид LECf-251
-tile.nuclearcraft.fluid_depleted_lecf_251_za.name=Расплав обедненного топлива LECf-251-цирконий
-fluid.depleted_lecf_251_za=Расплав обедненного топлива LECf-251-цирконий
+tile.nuclearcraft.fluid_depleted_lecf_251.name=Расплавленное обеднённое топливо LECf-251
+fluid.depleted_lecf_251=Расплавленное обеднённое топливо LECf-251
+tile.nuclearcraft.fluid_depleted_lecf_251_fluoride.name=Расплавленное обеднённое фторидное топливо LECf-251
+fluid.depleted_lecf_251_fluoride=Расплавленное обеднённое фторидное топливо LECf-251
+tile.nuclearcraft.fluid_depleted_lecf_251_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид LECf-251
+fluid.depleted_lecf_251_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид LECf-251
+tile.nuclearcraft.fluid_depleted_lecf_251_za.name=Расплав обеднённого топлива LECf-251-цирконий
+fluid.depleted_lecf_251_za=Расплав обеднённого топлива LECf-251-цирконий
 
-tile.nuclearcraft.fluid_depleted_hecf_251.name=Расплавленное обедненное топливо HECf-251
-fluid.depleted_hecf_251=Расплавленное обедненное топливо HECf-251
-tile.nuclearcraft.fluid_depleted_hecf_251_fluoride.name=Расплавленное обедненное фторидное топливо HECf-251
-fluid.depleted_hecf_251_fluoride=Расплавленное обедненное фторидное топливо HECf-251
-tile.nuclearcraft.fluid_depleted_hecf_251_fluoride_flibe.name=Расплав обедненного топлива FLiBe-фторид HECf-251
-fluid.depleted_hecf_251_fluoride_flibe=Расплав обедненного топлива FLiBe-фторид HECf-251
-tile.nuclearcraft.fluid_depleted_hecf_251_za.name=Расплав обедненного топлива HECf-251-цирконий
-fluid.depleted_hecf_251_za=Расплав обедненного топлива HECf-251-цирконий
+tile.nuclearcraft.fluid_depleted_hecf_251.name=Расплавленное обеднённое топливо HECf-251
+fluid.depleted_hecf_251=Расплавленное обеднённое топливо HECf-251
+tile.nuclearcraft.fluid_depleted_hecf_251_fluoride.name=Расплавленное обеднённое фторидное топливо HECf-251
+fluid.depleted_hecf_251_fluoride=Расплавленное обеднённое фторидное топливо HECf-251
+tile.nuclearcraft.fluid_depleted_hecf_251_fluoride_flibe.name=Расплав обеднённого топлива FLiBe-фторид HECf-251
+fluid.depleted_hecf_251_fluoride_flibe=Расплав обеднённого топлива FLiBe-фторид HECf-251
+tile.nuclearcraft.fluid_depleted_hecf_251_za.name=Расплав обеднённого топлива HECf-251-цирконий
+fluid.depleted_hecf_251_za=Расплав обеднённого топлива HECf-251-цирконий
 
 tile.nuclearcraft.fluid_iron.name=Расплавленное железо
 fluid.iron=Расплавленное железо
@@ -1575,19 +1577,19 @@ item.nuclearcraft.gem.carobbiite.desc=Можно получить при обр�
 item.nuclearcraft.gem.boron_arsenide.name=Арсенид бора
 item.nuclearcraft.gem.silicon.name=Кремний
 
-item.nuclearcraft.gem_dust.diamond.name=Дробленый алмаз
-item.nuclearcraft.gem_dust.rhodochrosite.name=Дробленый родохрозит
-item.nuclearcraft.gem_dust.quartz.name=Дробленый кварц
-item.nuclearcraft.gem_dust.obsidian.name=Дробленый обсидиан
+item.nuclearcraft.gem_dust.diamond.name=Дроблёный алмаз
+item.nuclearcraft.gem_dust.rhodochrosite.name=Дроблёный родохрозит
+item.nuclearcraft.gem_dust.quartz.name=Дроблёный кварц
+item.nuclearcraft.gem_dust.obsidian.name=Дроблёный обсидиан
 item.nuclearcraft.gem_dust.boron_nitride.name=Шестиугольный нитрид бора
-item.nuclearcraft.gem_dust.fluorite.name=Дробленый флюорит
+item.nuclearcraft.gem_dust.fluorite.name=Дроблёный флюорит
 item.nuclearcraft.gem_dust.sulfur.name=Сера
 item.nuclearcraft.gem_dust.sulfur.desc=Можно получить при обработке угольной руды.
-item.nuclearcraft.gem_dust.coal.name=Дробленый уголь
-item.nuclearcraft.gem_dust.villiaumite.name=Дробленый виллиомит
-item.nuclearcraft.gem_dust.carobbiite.name=Дробленый кароббиит
-item.nuclearcraft.gem_dust.arsenic.name=Дробленый мышьяк
-item.nuclearcraft.gem_dust.end_stone.name=Дробленый эндерняк
+item.nuclearcraft.gem_dust.coal.name=Дроблёный уголь
+item.nuclearcraft.gem_dust.villiaumite.name=Дроблёный виллиомит
+item.nuclearcraft.gem_dust.carobbiite.name=Дроблёный кароббиит
+item.nuclearcraft.gem_dust.arsenic.name=Дроблёный мышьяк
+item.nuclearcraft.gem_dust.end_stone.name=Дроблёный эндерняк
 
 item.nuclearcraft.alloy.bronze.name=Бронзовый сплав
 item.nuclearcraft.alloy.tough.name=Прочный сплав
@@ -1639,14 +1641,14 @@ item.nuclearcraft.part.empty_sink.name=Пустой радиатор
 item.nuclearcraft.part.pyrolytic_carbon.name=Пиролитический углерод
 
 item.nuclearcraft.upgrade.speed.name=Обновление "Скорость"
-item.nuclearcraft.upgrade.speed_desc=Увеличивает скорость обработки машин за счет дополнительной вычислительной мощности. Эти обновления могут быть сложены-скорость будет увеличиваться линейно с каждым дополнительным обновлением в то время как энергопотребление будет увеличиваться квадратично.
+item.nuclearcraft.upgrade.speed_desc=Увеличивает скорость обработки машин за счёт дополнительной вычислительной мощности. Эти обновления могут быть сложены-скорость будет увеличиваться линейно с каждым дополнительным обновлением в то время как энергопотребление будет увеличиваться квадратично.
 item.nuclearcraft.upgrade.energy.name=Обновление "Энергия"
 item.nuclearcraft.upgrade.energy_desc=Уменьшает мощность процесса машин. Эти обновления могут быть сложены, но максимальное число, которое будет иметь эффект, равно числу установленных обновлений скорости. Расход энергии будет уменьшаться %s с каждым дополнительным обновлением.
 
 item.nuclearcraft.fission_dust.bismuth.name=Висмутовая пыль
 item.nuclearcraft.fission_dust.radium.name=Радиевая пыль
 item.nuclearcraft.fission_dust.polonium.name=Полониевая пыль
-item.nuclearcraft.fission_dust.tbp.name=Обогащенная протактинием ториевая пыль
+item.nuclearcraft.fission_dust.tbp.name=Обогащённая протактинием ториевая пыль
 item.nuclearcraft.fission_dust.protactinium_233.name=Пыль из протактиния-233
 item.nuclearcraft.fission_dust.strontium_90.name=Пыль из стронция-90
 item.nuclearcraft.fission_dust.molybdenum.name=Молибденовая пыль
@@ -1960,125 +1962,125 @@ info.nuclearcraft.fission_fuel.criticality.desc=Коэффициент реак�
 info.nuclearcraft.fission_fuel.decay_factor.desc=Коэффициент распада: %s
 info.nuclearcraft.fission_fuel.self_priming.desc=Надкритическое топливо!
 
-item.nuclearcraft.depleted_fuel_thorium.tbu_tr.name=Обедненная топливная галька TBU
-item.nuclearcraft.depleted_fuel_thorium.tbu_ox.name=Таблетка обедненного оксидного топлива TBU
-item.nuclearcraft.depleted_fuel_thorium.tbu_ni.name=Таблетка обедненного нитридного топлива TBU
-item.nuclearcraft.depleted_fuel_thorium.tbu_za.name=Таблетка обедненного циркониевого топлива TBU
+item.nuclearcraft.depleted_fuel_thorium.tbu_tr.name=Обеднённая топливная галька TBU
+item.nuclearcraft.depleted_fuel_thorium.tbu_ox.name=Таблетка обеднённого оксидного топлива TBU
+item.nuclearcraft.depleted_fuel_thorium.tbu_ni.name=Таблетка обеднённого нитридного топлива TBU
+item.nuclearcraft.depleted_fuel_thorium.tbu_za.name=Таблетка обеднённого циркониевого топлива TBU
 
-item.nuclearcraft.depleted_fuel_uranium.leu_233_tr.name=Обедненная топливная галька LEU-233
-item.nuclearcraft.depleted_fuel_uranium.leu_233_ox.name=Таблетка обедненного оксидного топлива LEU-233
-item.nuclearcraft.depleted_fuel_uranium.leu_233_ni.name=Таблетка обедненного нитридного топлива LEU-233
-item.nuclearcraft.depleted_fuel_uranium.leu_233_za.name=Таблетка обедненного циркониевого топлива LEU-233
-item.nuclearcraft.depleted_fuel_uranium.heu_233_tr.name=Обедненная топливная галька HEU-233
-item.nuclearcraft.depleted_fuel_uranium.heu_233_ox.name=Таблетка обедненного оксидного топлива HEU-233
-item.nuclearcraft.depleted_fuel_uranium.heu_233_ni.name=Таблетка обедненного нитридного топлива HEU-233
-item.nuclearcraft.depleted_fuel_uranium.heu_233_za.name=Таблетка обедненного циркониевого топлива HEU-233
-item.nuclearcraft.depleted_fuel_uranium.leu_235_tr.name=Обедненная топливная галька LEU-235
-item.nuclearcraft.depleted_fuel_uranium.leu_235_ox.name=Таблетка обедненного оксидного топлива LEU-235
-item.nuclearcraft.depleted_fuel_uranium.leu_235_ni.name=Таблетка обедненного нитридного топлива LEU-235
-item.nuclearcraft.depleted_fuel_uranium.leu_235_za.name=Таблетка обедненного циркониевого топлива LEU-235
-item.nuclearcraft.depleted_fuel_uranium.heu_235_tr.name=Обедненная топливная галька HEU-235
-item.nuclearcraft.depleted_fuel_uranium.heu_235_ox.name=Таблетка обедненного оксидного топлива HEU-235
-item.nuclearcraft.depleted_fuel_uranium.heu_235_ni.name=Таблетка обедненного нитридного топлива HEU-235
-item.nuclearcraft.depleted_fuel_uranium.heu_235_za.name=Таблетка обедненного циркониевого топлива HEU-235
+item.nuclearcraft.depleted_fuel_uranium.leu_233_tr.name=Обеднённая топливная галька LEU-233
+item.nuclearcraft.depleted_fuel_uranium.leu_233_ox.name=Таблетка обеднённого оксидного топлива LEU-233
+item.nuclearcraft.depleted_fuel_uranium.leu_233_ni.name=Таблетка обеднённого нитридного топлива LEU-233
+item.nuclearcraft.depleted_fuel_uranium.leu_233_za.name=Таблетка обеднённого циркониевого топлива LEU-233
+item.nuclearcraft.depleted_fuel_uranium.heu_233_tr.name=Обеднённая топливная галька HEU-233
+item.nuclearcraft.depleted_fuel_uranium.heu_233_ox.name=Таблетка обеднённого оксидного топлива HEU-233
+item.nuclearcraft.depleted_fuel_uranium.heu_233_ni.name=Таблетка обеднённого нитридного топлива HEU-233
+item.nuclearcraft.depleted_fuel_uranium.heu_233_za.name=Таблетка обеднённого циркониевого топлива HEU-233
+item.nuclearcraft.depleted_fuel_uranium.leu_235_tr.name=Обеднённая топливная галька LEU-235
+item.nuclearcraft.depleted_fuel_uranium.leu_235_ox.name=Таблетка обеднённого оксидного топлива LEU-235
+item.nuclearcraft.depleted_fuel_uranium.leu_235_ni.name=Таблетка обеднённого нитридного топлива LEU-235
+item.nuclearcraft.depleted_fuel_uranium.leu_235_za.name=Таблетка обеднённого циркониевого топлива LEU-235
+item.nuclearcraft.depleted_fuel_uranium.heu_235_tr.name=Обеднённая топливная галька HEU-235
+item.nuclearcraft.depleted_fuel_uranium.heu_235_ox.name=Таблетка обеднённого оксидного топлива HEU-235
+item.nuclearcraft.depleted_fuel_uranium.heu_235_ni.name=Таблетка обеднённого нитридного топлива HEU-235
+item.nuclearcraft.depleted_fuel_uranium.heu_235_za.name=Таблетка обеднённого циркониевого топлива HEU-235
 
-item.nuclearcraft.depleted_fuel_neptunium.len_236_tr.name=Обедненная топливная галька LEN-236
-item.nuclearcraft.depleted_fuel_neptunium.len_236_ox.name=Таблетка обедненного оксидного топлива LEN-236
-item.nuclearcraft.depleted_fuel_neptunium.len_236_ni.name=Таблетка обедненного нитридного топлива LEN-236
-item.nuclearcraft.depleted_fuel_neptunium.len_236_za.name=Таблетка обедненного циркониевого топлива LEN-236
-item.nuclearcraft.depleted_fuel_neptunium.hen_236_tr.name=Обедненная топливная галька HEN-236
-item.nuclearcraft.depleted_fuel_neptunium.hen_236_ox.name=Таблетка обедненного оксидного топлива HEN-236
-item.nuclearcraft.depleted_fuel_neptunium.hen_236_ni.name=Таблетка обедненного нитридного топлива HEN-236
-item.nuclearcraft.depleted_fuel_neptunium.hen_236_za.name=Таблетка обедненного циркониевого топлива HEN-236
+item.nuclearcraft.depleted_fuel_neptunium.len_236_tr.name=Обеднённая топливная галька LEN-236
+item.nuclearcraft.depleted_fuel_neptunium.len_236_ox.name=Таблетка обеднённого оксидного топлива LEN-236
+item.nuclearcraft.depleted_fuel_neptunium.len_236_ni.name=Таблетка обеднённого нитридного топлива LEN-236
+item.nuclearcraft.depleted_fuel_neptunium.len_236_za.name=Таблетка обеднённого циркониевого топлива LEN-236
+item.nuclearcraft.depleted_fuel_neptunium.hen_236_tr.name=Обеднённая топливная галька HEN-236
+item.nuclearcraft.depleted_fuel_neptunium.hen_236_ox.name=Таблетка обеднённого оксидного топлива HEN-236
+item.nuclearcraft.depleted_fuel_neptunium.hen_236_ni.name=Таблетка обеднённого нитридного топлива HEN-236
+item.nuclearcraft.depleted_fuel_neptunium.hen_236_za.name=Таблетка обеднённого циркониевого топлива HEN-236
 
-item.nuclearcraft.depleted_fuel_plutonium.lep_239_tr.name=Обедненная топливная галька LEP-239
-item.nuclearcraft.depleted_fuel_plutonium.lep_239_ox.name=Таблетка обедненного оксидного топлива LEP-239
-item.nuclearcraft.depleted_fuel_plutonium.lep_239_ni.name=Таблетка обедненного нитридного топлива LEP-239
-item.nuclearcraft.depleted_fuel_plutonium.lep_239_za.name=Таблетка обедненного циркониевого топлива LEP-239
-item.nuclearcraft.depleted_fuel_plutonium.hep_239_tr.name=Обедненная топливная галька HEP-239
-item.nuclearcraft.depleted_fuel_plutonium.hep_239_ox.name=Таблетка обедненного оксидного топлива HEP-239
-item.nuclearcraft.depleted_fuel_plutonium.hep_239_ni.name=Таблетка обедненного нитридного топлива HEP-239
-item.nuclearcraft.depleted_fuel_plutonium.hep_239_za.name=Таблетка обедненного циркониевого топлива HEP-239
-item.nuclearcraft.depleted_fuel_plutonium.lep_241_tr.name=Обедненная топливная галька LEP-241
-item.nuclearcraft.depleted_fuel_plutonium.lep_241_ox.name=Таблетка обедненного оксидного топлива LEP-241
-item.nuclearcraft.depleted_fuel_plutonium.lep_241_ni.name=Таблетка обедненного нитридного топлива LEP-241
-item.nuclearcraft.depleted_fuel_plutonium.lep_241_za.name=Таблетка обедненного циркониевого топлива LEP-241
-item.nuclearcraft.depleted_fuel_plutonium.hep_241_tr.name=Обедненная топливная галька HEP-241
-item.nuclearcraft.depleted_fuel_plutonium.hep_241_ox.name=Таблетка обедненного оксидного топлива HEP-241
-item.nuclearcraft.depleted_fuel_plutonium.hep_241_ni.name=Таблетка обедненного нитридного топлива HEP-241
-item.nuclearcraft.depleted_fuel_plutonium.hep_241_za.name=Таблетка обедненного циркониевого топлива HEP-241
+item.nuclearcraft.depleted_fuel_plutonium.lep_239_tr.name=Обеднённая топливная галька LEP-239
+item.nuclearcraft.depleted_fuel_plutonium.lep_239_ox.name=Таблетка обеднённого оксидного топлива LEP-239
+item.nuclearcraft.depleted_fuel_plutonium.lep_239_ni.name=Таблетка обеднённого нитридного топлива LEP-239
+item.nuclearcraft.depleted_fuel_plutonium.lep_239_za.name=Таблетка обеднённого циркониевого топлива LEP-239
+item.nuclearcraft.depleted_fuel_plutonium.hep_239_tr.name=Обеднённая топливная галька HEP-239
+item.nuclearcraft.depleted_fuel_plutonium.hep_239_ox.name=Таблетка обеднённого оксидного топлива HEP-239
+item.nuclearcraft.depleted_fuel_plutonium.hep_239_ni.name=Таблетка обеднённого нитридного топлива HEP-239
+item.nuclearcraft.depleted_fuel_plutonium.hep_239_za.name=Таблетка обеднённого циркониевого топлива HEP-239
+item.nuclearcraft.depleted_fuel_plutonium.lep_241_tr.name=Обеднённая топливная галька LEP-241
+item.nuclearcraft.depleted_fuel_plutonium.lep_241_ox.name=Таблетка обеднённого оксидного топлива LEP-241
+item.nuclearcraft.depleted_fuel_plutonium.lep_241_ni.name=Таблетка обеднённого нитридного топлива LEP-241
+item.nuclearcraft.depleted_fuel_plutonium.lep_241_za.name=Таблетка обеднённого циркониевого топлива LEP-241
+item.nuclearcraft.depleted_fuel_plutonium.hep_241_tr.name=Обеднённая топливная галька HEP-241
+item.nuclearcraft.depleted_fuel_plutonium.hep_241_ox.name=Таблетка обеднённого оксидного топлива HEP-241
+item.nuclearcraft.depleted_fuel_plutonium.hep_241_ni.name=Таблетка обеднённого нитридного топлива HEP-241
+item.nuclearcraft.depleted_fuel_plutonium.hep_241_za.name=Таблетка обеднённого циркониевого топлива HEP-241
 
-item.nuclearcraft.depleted_fuel_mixed.mix_239_tr.name=Обедненная топливная галька MTRISO-239
-item.nuclearcraft.depleted_fuel_mixed.mix_239_ox.name=Обедненная Таблетка смешанного топлива MOX-239
-item.nuclearcraft.depleted_fuel_mixed.mix_239_ni.name=Обедненная Таблетка смешанного топлива MNI-239
-item.nuclearcraft.depleted_fuel_mixed.mix_239_za.name=Обедненная Таблетка смешанного топлива MZA-239
-item.nuclearcraft.depleted_fuel_mixed.mix_241_tr.name=Обедненная топливная галька MTRISO-241
-item.nuclearcraft.depleted_fuel_mixed.mix_241_ox.name=Обедненная Таблетка смешанного топлива MOX-241
-item.nuclearcraft.depleted_fuel_mixed.mix_241_ni.name=Обедненная Таблетка смешанного топлива MNI-241
-item.nuclearcraft.depleted_fuel_mixed.mix_241_za.name=Обедненная Таблетка смешанного топлива MZA-241
+item.nuclearcraft.depleted_fuel_mixed.mix_239_tr.name=Обеднённая топливная галька MTRISO-239
+item.nuclearcraft.depleted_fuel_mixed.mix_239_ox.name=Обеднённая Таблетка смешанного топлива MOX-239
+item.nuclearcraft.depleted_fuel_mixed.mix_239_ni.name=Обеднённая Таблетка смешанного топлива MNI-239
+item.nuclearcraft.depleted_fuel_mixed.mix_239_za.name=Обеднённая Таблетка смешанного топлива MZA-239
+item.nuclearcraft.depleted_fuel_mixed.mix_241_tr.name=Обеднённая топливная галька MTRISO-241
+item.nuclearcraft.depleted_fuel_mixed.mix_241_ox.name=Обеднённая Таблетка смешанного топлива MOX-241
+item.nuclearcraft.depleted_fuel_mixed.mix_241_ni.name=Обеднённая Таблетка смешанного топлива MNI-241
+item.nuclearcraft.depleted_fuel_mixed.mix_241_za.name=Обеднённая Таблетка смешанного топлива MZA-241
 
-item.nuclearcraft.depleted_fuel_americium.lea_242_tr.name=Обедненная топливная галька LEA-242
-item.nuclearcraft.depleted_fuel_americium.lea_242_ox.name=Таблетка обедненного оксидного топлива LEA-242
-item.nuclearcraft.depleted_fuel_americium.lea_242_ni.name=Таблетка обедненного нитридного топлива LEA-242
-item.nuclearcraft.depleted_fuel_americium.lea_242_za.name=Таблетка обедненного циркониевого топлива LEA-242
-item.nuclearcraft.depleted_fuel_americium.hea_242_tr.name=Обедненная топливная галька HEA-242
-item.nuclearcraft.depleted_fuel_americium.hea_242_ox.name=Таблетка обедненного оксидного топлива HEA-242
-item.nuclearcraft.depleted_fuel_americium.hea_242_ni.name=Таблетка обедненного нитридного топлива HEA-242
-item.nuclearcraft.depleted_fuel_americium.hea_242_za.name=Таблетка обедненного циркониевого топлива HEA-242
+item.nuclearcraft.depleted_fuel_americium.lea_242_tr.name=Обеднённая топливная галька LEA-242
+item.nuclearcraft.depleted_fuel_americium.lea_242_ox.name=Таблетка обеднённого оксидного топлива LEA-242
+item.nuclearcraft.depleted_fuel_americium.lea_242_ni.name=Таблетка обеднённого нитридного топлива LEA-242
+item.nuclearcraft.depleted_fuel_americium.lea_242_za.name=Таблетка обеднённого циркониевого топлива LEA-242
+item.nuclearcraft.depleted_fuel_americium.hea_242_tr.name=Обеднённая топливная галька HEA-242
+item.nuclearcraft.depleted_fuel_americium.hea_242_ox.name=Таблетка обеднённого оксидного топлива HEA-242
+item.nuclearcraft.depleted_fuel_americium.hea_242_ni.name=Таблетка обеднённого нитридного топлива HEA-242
+item.nuclearcraft.depleted_fuel_americium.hea_242_za.name=Таблетка обеднённого циркониевого топлива HEA-242
 
-item.nuclearcraft.depleted_fuel_curium.lecm_243_tr.name=Обедненная топливная галька LECm-243
-item.nuclearcraft.depleted_fuel_curium.lecm_243_ox.name=Таблетка обедненного оксидного топлива LECm-243
-item.nuclearcraft.depleted_fuel_curium.lecm_243_ni.name=Таблетка обедненного нитридного топлива LECm-243
-item.nuclearcraft.depleted_fuel_curium.lecm_243_za.name=Таблетка обедненного циркониевого топлива LECm-243
-item.nuclearcraft.depleted_fuel_curium.hecm_243_tr.name=Обедненная топливная галька HECm-243
-item.nuclearcraft.depleted_fuel_curium.hecm_243_ox.name=Таблетка обедненного оксидного топлива HECm-243
-item.nuclearcraft.depleted_fuel_curium.hecm_243_ni.name=Таблетка обедненного нитридного топлива HECm-243
-item.nuclearcraft.depleted_fuel_curium.hecm_243_za.name=Таблетка обедненного циркониевого топлива HECm-243
-item.nuclearcraft.depleted_fuel_curium.lecm_245_tr.name=Обедненная топливная галька LECm-245
-item.nuclearcraft.depleted_fuel_curium.lecm_245_ox.name=Таблетка обедненного оксидного топлива LECm-245
-item.nuclearcraft.depleted_fuel_curium.lecm_245_ni.name=Таблетка обедненного нитридного топлива LECm-245
-item.nuclearcraft.depleted_fuel_curium.lecm_245_za.name=Таблетка обедненного циркониевого топлива LECm-245
-item.nuclearcraft.depleted_fuel_curium.hecm_245_tr.name=Обедненная топливная галька HECm-245
-item.nuclearcraft.depleted_fuel_curium.hecm_245_ox.name=Таблетка обедненного оксидного топлива HECm-245
-item.nuclearcraft.depleted_fuel_curium.hecm_245_ni.name=Таблетка обедненного нитридного топлива HECm-245
-item.nuclearcraft.depleted_fuel_curium.hecm_245_za.name=Таблетка обедненного циркониевого топлива HECm-245
-item.nuclearcraft.depleted_fuel_curium.lecm_247_tr.name=Обедненная топливная галька LECm-247
-item.nuclearcraft.depleted_fuel_curium.lecm_247_ox.name=Таблетка обедненного оксидного топлива LECm-247
-item.nuclearcraft.depleted_fuel_curium.lecm_247_ni.name=Таблетка обедненного нитридного топлива LECm-247
-item.nuclearcraft.depleted_fuel_curium.lecm_247_za.name=Таблетка обедненного циркониевого топлива LECm-247
-item.nuclearcraft.depleted_fuel_curium.hecm_247_tr.name=Обедненная топливная галька HECm-247
-item.nuclearcraft.depleted_fuel_curium.hecm_247_ox.name=Таблетка обедненного оксидного топлива HECm-247
-item.nuclearcraft.depleted_fuel_curium.hecm_247_ni.name=Таблетка обедненного нитридного топлива HECm-247
-item.nuclearcraft.depleted_fuel_curium.hecm_247_za.name=Таблетка обедненного циркониевого топлива HECm-247
+item.nuclearcraft.depleted_fuel_curium.lecm_243_tr.name=Обеднённая топливная галька LECm-243
+item.nuclearcraft.depleted_fuel_curium.lecm_243_ox.name=Таблетка обеднённого оксидного топлива LECm-243
+item.nuclearcraft.depleted_fuel_curium.lecm_243_ni.name=Таблетка обеднённого нитридного топлива LECm-243
+item.nuclearcraft.depleted_fuel_curium.lecm_243_za.name=Таблетка обеднённого циркониевого топлива LECm-243
+item.nuclearcraft.depleted_fuel_curium.hecm_243_tr.name=Обеднённая топливная галька HECm-243
+item.nuclearcraft.depleted_fuel_curium.hecm_243_ox.name=Таблетка обеднённого оксидного топлива HECm-243
+item.nuclearcraft.depleted_fuel_curium.hecm_243_ni.name=Таблетка обеднённого нитридного топлива HECm-243
+item.nuclearcraft.depleted_fuel_curium.hecm_243_za.name=Таблетка обеднённого циркониевого топлива HECm-243
+item.nuclearcraft.depleted_fuel_curium.lecm_245_tr.name=Обеднённая топливная галька LECm-245
+item.nuclearcraft.depleted_fuel_curium.lecm_245_ox.name=Таблетка обеднённого оксидного топлива LECm-245
+item.nuclearcraft.depleted_fuel_curium.lecm_245_ni.name=Таблетка обеднённого нитридного топлива LECm-245
+item.nuclearcraft.depleted_fuel_curium.lecm_245_za.name=Таблетка обеднённого циркониевого топлива LECm-245
+item.nuclearcraft.depleted_fuel_curium.hecm_245_tr.name=Обеднённая топливная галька HECm-245
+item.nuclearcraft.depleted_fuel_curium.hecm_245_ox.name=Таблетка обеднённого оксидного топлива HECm-245
+item.nuclearcraft.depleted_fuel_curium.hecm_245_ni.name=Таблетка обеднённого нитридного топлива HECm-245
+item.nuclearcraft.depleted_fuel_curium.hecm_245_za.name=Таблетка обеднённого циркониевого топлива HECm-245
+item.nuclearcraft.depleted_fuel_curium.lecm_247_tr.name=Обеднённая топливная галька LECm-247
+item.nuclearcraft.depleted_fuel_curium.lecm_247_ox.name=Таблетка обеднённого оксидного топлива LECm-247
+item.nuclearcraft.depleted_fuel_curium.lecm_247_ni.name=Таблетка обеднённого нитридного топлива LECm-247
+item.nuclearcraft.depleted_fuel_curium.lecm_247_za.name=Таблетка обеднённого циркониевого топлива LECm-247
+item.nuclearcraft.depleted_fuel_curium.hecm_247_tr.name=Обеднённая топливная галька HECm-247
+item.nuclearcraft.depleted_fuel_curium.hecm_247_ox.name=Таблетка обеднённого оксидного топлива HECm-247
+item.nuclearcraft.depleted_fuel_curium.hecm_247_ni.name=Таблетка обеднённого нитридного топлива HECm-247
+item.nuclearcraft.depleted_fuel_curium.hecm_247_za.name=Таблетка обеднённого циркониевого топлива HECm-247
 
-item.nuclearcraft.depleted_fuel_berkelium.leb_248_tr.name=Обедненная топливная галька LEB-248
-item.nuclearcraft.depleted_fuel_berkelium.leb_248_ox.name=Таблетка обедненного оксидного топлива LEB-248
-item.nuclearcraft.depleted_fuel_berkelium.leb_248_ni.name=Таблетка обедненного нитридного топлива LEB-248
-item.nuclearcraft.depleted_fuel_berkelium.leb_248_za.name=Таблетка обедненного циркониевого топлива LEB-248
-item.nuclearcraft.depleted_fuel_berkelium.heb_248_tr.name=Обедненная топливная галька HEB-248
-item.nuclearcraft.depleted_fuel_berkelium.heb_248_ox.name=Таблетка обедненного оксидного топлива HEB-248
-item.nuclearcraft.depleted_fuel_berkelium.heb_248_ni.name=Таблетка обедненного нитридного топлива HEB-248
-item.nuclearcraft.depleted_fuel_berkelium.heb_248_za.name=Таблетка обедненного циркониевого топлива HEB-248
+item.nuclearcraft.depleted_fuel_berkelium.leb_248_tr.name=Обеднённая топливная галька LEB-248
+item.nuclearcraft.depleted_fuel_berkelium.leb_248_ox.name=Таблетка обеднённого оксидного топлива LEB-248
+item.nuclearcraft.depleted_fuel_berkelium.leb_248_ni.name=Таблетка обеднённого нитридного топлива LEB-248
+item.nuclearcraft.depleted_fuel_berkelium.leb_248_za.name=Таблетка обеднённого циркониевого топлива LEB-248
+item.nuclearcraft.depleted_fuel_berkelium.heb_248_tr.name=Обеднённая топливная галька HEB-248
+item.nuclearcraft.depleted_fuel_berkelium.heb_248_ox.name=Таблетка обеднённого оксидного топлива HEB-248
+item.nuclearcraft.depleted_fuel_berkelium.heb_248_ni.name=Таблетка обеднённого нитридного топлива HEB-248
+item.nuclearcraft.depleted_fuel_berkelium.heb_248_za.name=Таблетка обеднённого циркониевого топлива HEB-248
 
-item.nuclearcraft.depleted_fuel_californium.lecf_249_tr.name=Обедненная топливная галька LECf-249
-item.nuclearcraft.depleted_fuel_californium.lecf_249_ox.name=Таблетка обедненного оксидного топлива LECf-249
-item.nuclearcraft.depleted_fuel_californium.lecf_249_ni.name=Таблетка обедненного нитридного топлива LECf-249
-item.nuclearcraft.depleted_fuel_californium.lecf_249_za.name=Таблетка обедненного циркониевого топлива LECf-249
-item.nuclearcraft.depleted_fuel_californium.hecf_249_tr.name=Обедненная топливная галька HECf-249
-item.nuclearcraft.depleted_fuel_californium.hecf_249_ox.name=Таблетка обедненного оксидного топлива HECf-249
-item.nuclearcraft.depleted_fuel_californium.hecf_249_ni.name=Таблетка обедненного нитридного топлива HECf-249
-item.nuclearcraft.depleted_fuel_californium.hecf_249_za.name=Таблетка обедненного циркониевого топлива HECf-249
-item.nuclearcraft.depleted_fuel_californium.lecf_251_tr.name=Обедненная топливная галька LECf-251
-item.nuclearcraft.depleted_fuel_californium.lecf_251_ox.name=Таблетка обедненного оксидного топлива LECf-251
-item.nuclearcraft.depleted_fuel_californium.lecf_251_ni.name=Таблетка обедненного нитридного топлива LECf-251
-item.nuclearcraft.depleted_fuel_californium.lecf_251_za.name=Таблетка обедненного циркониевого топлива LECf-251
-item.nuclearcraft.depleted_fuel_californium.hecf_251_tr.name=Обедненная топливная галька HECf-251
-item.nuclearcraft.depleted_fuel_californium.hecf_251_ox.name=Таблетка обедненного оксидного топлива HECf-251
-item.nuclearcraft.depleted_fuel_californium.hecf_251_ni.name=Таблетка обедненного нитридного топлива HECf-251
-item.nuclearcraft.depleted_fuel_californium.hecf_251_za.name=Таблетка обедненного циркониевого топлива HECf-251
+item.nuclearcraft.depleted_fuel_californium.lecf_249_tr.name=Обеднённая топливная галька LECf-249
+item.nuclearcraft.depleted_fuel_californium.lecf_249_ox.name=Таблетка обеднённого оксидного топлива LECf-249
+item.nuclearcraft.depleted_fuel_californium.lecf_249_ni.name=Таблетка обеднённого нитридного топлива LECf-249
+item.nuclearcraft.depleted_fuel_californium.lecf_249_za.name=Таблетка обеднённого циркониевого топлива LECf-249
+item.nuclearcraft.depleted_fuel_californium.hecf_249_tr.name=Обеднённая топливная галька HECf-249
+item.nuclearcraft.depleted_fuel_californium.hecf_249_ox.name=Таблетка обеднённого оксидного топлива HECf-249
+item.nuclearcraft.depleted_fuel_californium.hecf_249_ni.name=Таблетка обеднённого нитридного топлива HECf-249
+item.nuclearcraft.depleted_fuel_californium.hecf_249_za.name=Таблетка обеднённого циркониевого топлива HECf-249
+item.nuclearcraft.depleted_fuel_californium.lecf_251_tr.name=Обеднённая топливная галька LECf-251
+item.nuclearcraft.depleted_fuel_californium.lecf_251_ox.name=Таблетка обеднённого оксидного топлива LECf-251
+item.nuclearcraft.depleted_fuel_californium.lecf_251_ni.name=Таблетка обеднённого нитридного топлива LECf-251
+item.nuclearcraft.depleted_fuel_californium.lecf_251_za.name=Таблетка обеднённого циркониевого топлива LECf-251
+item.nuclearcraft.depleted_fuel_californium.hecf_251_tr.name=Обеднённая топливная галька HECf-251
+item.nuclearcraft.depleted_fuel_californium.hecf_251_ox.name=Таблетка обеднённого оксидного топлива HECf-251
+item.nuclearcraft.depleted_fuel_californium.hecf_251_ni.name=Таблетка обеднённого нитридного топлива HECf-251
+item.nuclearcraft.depleted_fuel_californium.hecf_251_za.name=Таблетка обеднённого циркониевого топлива HECf-251
 
-item.nuclearcraft.depleted_fuel_ic2.u.name=Обедненное урановое ядерное топливо
-item.nuclearcraft.depleted_fuel_ic2.mox.name=Обедненное MOX ядерное топливо
+item.nuclearcraft.depleted_fuel_ic2.u.name=Обеднённое урановое ядерное топливо
+item.nuclearcraft.depleted_fuel_ic2.mox.name=Обеднённое MOX ядерное топливо
 
 item.nuclearcraft.boron.10.name=Бор-10
 item.nuclearcraft.boron.11.name=Бор-11
@@ -2102,12 +2104,12 @@ item.nuclearcraft.hoe_tough.name=Мотыга из прочного сплава
 item.nuclearcraft.spaxelhoe_tough.name=Спаксел из прочного сплава
 item.nuclearcraft.spaxelhoe_tough.desc=Универсальный инструмент, включающий функции всех основных инструментов.
 
-item.nuclearcraft.sword_hard_carbon.name=Меч из твердого углерода
-item.nuclearcraft.pickaxe_hard_carbon.name=Кирка из твердого углерода
-item.nuclearcraft.shovel_hard_carbon.name=Лопата из твердого углерода
-item.nuclearcraft.axe_hard_carbon.name=Топор из твердого углерода
-item.nuclearcraft.hoe_hard_carbon.name=Мотыга из твердого углерода
-item.nuclearcraft.spaxelhoe_hard_carbon.name=Спаксел из твердого углерода
+item.nuclearcraft.sword_hard_carbon.name=Меч из твёрдого углерода
+item.nuclearcraft.pickaxe_hard_carbon.name=Кирка из твёрдого углерода
+item.nuclearcraft.shovel_hard_carbon.name=Лопата из твёрдого углерода
+item.nuclearcraft.axe_hard_carbon.name=Топор из твёрдого углерода
+item.nuclearcraft.hoe_hard_carbon.name=Мотыга из твёрдого углерода
+item.nuclearcraft.spaxelhoe_hard_carbon.name=Спаксел из твёрдого углерода
 item.nuclearcraft.spaxelhoe_hard_carbon.desc=Универсальный инструмент, включающий функции всех основных инструментов.
 
 item.nuclearcraft.sword_boron_nitride.name=Меч из нитрида бора
@@ -2128,10 +2130,10 @@ item.nuclearcraft.chest_tough.name=Нагрудник из прочного сп
 item.nuclearcraft.legs_tough.name=Штаны из прочного сплава
 item.nuclearcraft.boots_tough.name=Ботинки из прочного сплава
 
-item.nuclearcraft.helm_hard_carbon.name=Шлем из твердого углерода
-item.nuclearcraft.chest_hard_carbon.name=Нагрудник из твердого углерода
-item.nuclearcraft.legs_hard_carbon.name=Штаны из твердого углерода
-item.nuclearcraft.boots_hard_carbon.name=Ботинки из твердого углерода
+item.nuclearcraft.helm_hard_carbon.name=Шлем из твёрдого углерода
+item.nuclearcraft.chest_hard_carbon.name=Нагрудник из твёрдого углерода
+item.nuclearcraft.legs_hard_carbon.name=Штаны из твёрдого углерода
+item.nuclearcraft.boots_hard_carbon.name=Ботинки из твёрдого углерода
 
 item.nuclearcraft.helm_boron_nitride.name=Шлем из нитрида бора
 item.nuclearcraft.chest_boron_nitride.name=Нагрудник из нитрида бора
@@ -2197,13 +2199,13 @@ info.nuclearcraft.multitool.quantum_computer.controller.qiskit_print=Квант�
 info.nuclearcraft.multitool.quantum_computer.controller.qiskit_error=Квантовый компьютер выходит из режима Qiskit, произошла ошибка при попытке сохранить сгенерированный код в %s
 info.nuclearcraft.multitool.quantum_computer.controller.qiskit_exit_empty=Квантовый компьютер выходит из режима Qiskit.
 
-item.nuclearcraft.geiger_counter.name=Счетчик Гейгера
+item.nuclearcraft.geiger_counter.name=Счётчик Гейгера
 item.nuclearcraft.geiger_counter.desc=Прибор для измерения уровня радиации.
 item.nuclearcraft.geiger_counter.rads=Радиация:
 
-item.nuclearcraft.rad_shielding.light.name=Легкая радиационная защита
+item.nuclearcraft.rad_shielding.light.name=Лёгкая радиационная защита
 item.nuclearcraft.rad_shielding.medium.name=Средняя радиационная защита
-item.nuclearcraft.rad_shielding.heavy.name=Тяжелая радиационная защита
+item.nuclearcraft.rad_shielding.heavy.name=Тяжёлая радиационная защита
 item.nuclearcraft.rad_shielding.desc=Может быть установлена на броню, чтобы увеличить устойчивость к радиации. Добавляет %s сопротивления радиации при ношении.
 item.nuclearcraft.rad_shielding.desc_hardcore=Может быть установлена на броню, чтобы увеличить устойчивость к радиации. Добавляет %s сопротивления радиации при ношении. Может также применяться к контейнерам для защиты от облучения их содержимого.
 item.nuclearcraft.rad_shielding.not_hardcore=Облучение контейнеров отключено в конфигах!
@@ -2235,9 +2237,9 @@ item.nuclearcraft.graham_cracker.name=Грэм крекер
 item.nuclearcraft.roasted_cocoa_beans.name=Жареные какао-бобы
 item.nuclearcraft.ground_cocoa_nibs.name=Молотые какао-бобы
 item.nuclearcraft.cocoa_butter.name=Затвердевшее какао-масло
-item.nuclearcraft.cocoa_solids.name=Твердый какао
+item.nuclearcraft.cocoa_solids.name=Твёрдый какао
 item.nuclearcraft.unsweetened_chocolate.name=Горький шоколад
-item.nuclearcraft.dark_chocolate.name=Темный шоколад
+item.nuclearcraft.dark_chocolate.name=Тёмный шоколад
 item.nuclearcraft.milk_chocolate.name=Молочный шоколад
 
 item.nuclearcraft.gelatin.name=Желатин
@@ -2292,7 +2294,7 @@ jei.nuclearcraft.solid_fuel_decay_factor=Коэффициент распада:
 jei.nuclearcraft.solid_fuel_radiation=Излучение:
 jei.nuclearcraft.solid_fuel_self_priming=Надкритическое топливо!
 
-jei.nuclearcraft.fission_heating_heat_per_mb=Нагрев на объем:
+jei.nuclearcraft.fission_heating_heat_per_mb=Нагрев на объём:
 
 jei.nuclearcraft.salt_fuel_time=Время процесса:
 jei.nuclearcraft.salt_fuel_heat=Базовое тепловыделение:
@@ -2302,7 +2304,7 @@ jei.nuclearcraft.salt_fuel_decay_factor=Коэффициент распада:
 jei.nuclearcraft.salt_fuel_radiation=Излучение:
 jei.nuclearcraft.salt_fuel_self_priming=Надкритическое топливо!
 
-jei.nuclearcraft.fission_emergency_cooling_per_mb=Аварийное хлаждение на объем:
+jei.nuclearcraft.fission_emergency_cooling_per_mb=Аварийное хлаждение на объём:
 
 jei.nuclearcraft.fusion_time=Базовое время процеса:
 jei.nuclearcraft.fusion_power=Базовое энерговыделение:
@@ -2344,9 +2346,9 @@ gui.nc.config.category.world_gen=Конфиг генерации мира
 gui.nc.config.category.world_gen.tooltip=Настройка генерации мира.
 
 gui.nc.config.ore_dims=Список измерений (миров) для генерации руды
-gui.nc.config.ore_dims.comment=Список идентификаторов измерений для белого/черного списка для генерации руды.
-gui.nc.config.ore_dims_list_type=Белый (false) / черный (true) список
-gui.nc.config.ore_dims_list_type.comment=Только указанные (белый список) / все, кроме указанных (черный список)
+gui.nc.config.ore_dims.comment=Список идентификаторов измерений для белого/чёрного списка для генерации руды.
+gui.nc.config.ore_dims_list_type=Белый (false) / чёрный (true) список
+gui.nc.config.ore_dims_list_type.comment=Только указанные (белый список) / все, кроме указанных (чёрный список)
 gui.nc.config.ore_gen=Генерировать руды
 gui.nc.config.ore_gen.comment=Будут ли эти руды генерироваться в мире? Порядок: медь, олово, свинец, торий, уран, бор, литий, магний.
 gui.nc.config.ore_size=Размеры жил
@@ -2378,29 +2380,29 @@ gui.nc.config.mushroom_spread_rate=Скорость распространени
 gui.nc.config.mushroom_spread_rate.comment=Скорость распространения грибов, добавленных NC - большие числа соответствуют большей скорости распространения.
 gui.nc.config.mushroom_gen=Генерировать грибы
 gui.nc.config.mushroom_gen.comment=Будут ли грибы, добавленные NC, генерироваться в биомах пустошей и недр?
-gui.nc.config.mushroom_gen_size=Объем генерации грибов
+gui.nc.config.mushroom_gen_size=Объём генерации грибов
 gui.nc.config.mushroom_gen_size.comment=Определяет максимальное количество грибов, добавленных NC, которые будут порождаться одновременно. Обратите внимание, что это значение обычно намного выше, чем среднее число сгенерированных грибов.
 gui.nc.config.mushroom_gen_rate=Частота генерации грибов
 gui.nc.config.mushroom_gen_rate.comment=Определяет, как часто будут порождаться грибы, добавленные NC - чем больше, тем чаще встречаются грибы.
 
 gui.nc.config.corium_solidification=Список измерений для затвердевания кориума
-gui.nc.config.corium_solidification.comment=Список идентификаторов измерений для белого/черного списка для затвердевания кориума.
-gui.nc.config.corium_solidification_list_type=Белый (false) / черный (true) список
-gui.nc.config.corium_solidification_list_type.comment=Только указанные (белый список) / все, кроме указанных (черный список)
+gui.nc.config.corium_solidification.comment=Список идентификаторов измерений для белого/чёрного списка для затвердевания кориума.
+gui.nc.config.corium_solidification_list_type=Белый (false) / чёрный (true) список
+gui.nc.config.corium_solidification_list_type.comment=Только указанные (белый список) / все, кроме указанных (чёрный список)
 
 gui.nc.config.category.processor=Настройка обработчиков
 gui.nc.config.category.processor.tooltip=Настройка обработчиков
 
 gui.nc.config.processor_time=Время процесса
-gui.nc.config.processor_time.comment=Базовые тики на процесс. Порядок: Мануфактура, сепаратор, ускоритель распада, репроцессор топлива, печь сплавов, подаватель жидкости, плавитель, суперхолодильник, электролизер, сборщик, формовщик чушек, прессовщик, химический реактор, смеситель жидкости, кристаллизатор, обогатитель жидкости, экстрактор жидкости, центрифуга, камнедробилка.
+gui.nc.config.processor_time.comment=Базовые тики на процесс. Порядок: Мануфактура, сепаратор, ускоритель распада, репроцессор топлива, печь сплавов, подаватель жидкости, плавитель, суперхолодильник, электролизёр, сборщик, формовщик чушек, прессовщик, химический реактор, смеситель жидкости, кристаллизатор, обогатитель жидкости, экстрактор жидкости, центрифуга, камнедробилка.
 gui.nc.config.processor_power=Энергия процесса
-gui.nc.config.processor_power.comment=Базовое использование RF/т во время обработки. Порядок: Мануфактура, Сепаратор, Ускоритель распада, Переработчик топлива, Печь сплава, Инфузор жидкости, Плавильщик, Суперхолодильник, Электролизер, Сборщик, Формовщик чушек, Прессование, Химический реактор, Смеситель жидкости, Кристаллизатор, Обогатитель жидкости, Экстрактор жидкости, Центрифуга, Дробилка породы.
-gui.nc.config.speed_upgrade_power_laws_fp=Правила расчета энергии при ускорении
-gui.nc.config.speed_upgrade_power_laws_fp.comment=Правила расчета энергии при ускорении. Порядок: Время обработки, Мощность обработки.
+gui.nc.config.processor_power.comment=Базовое использование RF/т во время обработки. Порядок: Мануфактура, Сепаратор, Ускоритель распада, Переработчик топлива, Печь сплава, Инфузор жидкости, Плавильщик, Суперхолодильник, Электролизёр, Сборщик, Формовщик чушек, Прессование, Химический реактор, Смеситель жидкости, Кристаллизатор, Обогатитель жидкости, Экстрактор жидкости, Центрифуга, Дробилка породы.
+gui.nc.config.speed_upgrade_power_laws_fp=Правила расчёта энергии при ускорении
+gui.nc.config.speed_upgrade_power_laws_fp.comment=Правила расчёта энергии при ускорении. Порядок: Время обработки, Мощность обработки.
 gui.nc.config.speed_upgrade_multipliers_fp=Множители ускорения
 gui.nc.config.speed_upgrade_multipliers_fp.comment=Базовые множители ускорения. Порядок: Время обработки, Мощность обработки.
-gui.nc.config.energy_upgrade_power_laws_fp=Правила расчета энергии с улучшенной энергосистемой
-gui.nc.config.energy_upgrade_power_laws_fp.comment=Правила расчета энергии с улучшенной энергосистемой. Порядок: Мощность обработки.
+gui.nc.config.energy_upgrade_power_laws_fp=Правила расчёта энергии с улучшенной энергосистемой
+gui.nc.config.energy_upgrade_power_laws_fp.comment=Правила расчёта энергии с улучшенной энергосистемой. Порядок: Мощность обработки.
 gui.nc.config.energy_upgrade_multipliers_fp=Множители улучшения энергосистемы
 gui.nc.config.energy_upgrade_multipliers_fp.comment=Базовые множители для энергетических обновлений. Порядок: Мощность обработки.
 gui.nc.config.upgrade_stack_sizes=Максимальный размер стека апгрейда
@@ -2424,15 +2426,15 @@ gui.nc.config.cobble_gen_power.comment=RF/t требуется для работ
 gui.nc.config.ore_processing=Обработка руды
 gui.nc.config.ore_processing.comment=Могут ли машины NuclearCraft перерабатывать руду?
 gui.nc.config.manufactory_wood=Обработка древесины
-gui.nc.config.manufactory_wood.comment=Укажите размер выходного стека для рецептов обработки древесины. Порядок: Бревна->Доски, Доски->Палки.
+gui.nc.config.manufactory_wood.comment=Укажите размер выходного стека для рецептов обработки древесины. Порядок: Брёвна->Доски, Доски->Палки.
 gui.nc.config.rock_crusher_alternate=Альтернативные рецепты камнедробилки
 gui.nc.config.rock_crusher_alternate.comment=Использовать альтернативный набор рецептов для камнедробилки, который производит только NC-пыль?
 gui.nc.config.gtce_recipe_integration=Регистрация рецептов GTCE
-gui.nc.config.gtce_recipe_integration.comment=Если включено, рецепты соответствующей машины NC будут также добавлены для машин GTCE. Порядок: Мануфактура, сепаратор, ускоритель распада, репроцессор топлива, печь сплавов, подаватель жидкости, плавитель, суперхолодильник, электролизер, сборщик, формовщик чушек, прессовщик, химический реактор, смеситель жидкости, кристаллизатор, обогатитель жидкости, экстрактор жидкости, центрифуга, камнедробилка.
+gui.nc.config.gtce_recipe_integration.comment=Если включено, рецепты соответствующей машины NC будут также добавлены для машин GTCE. Порядок: Мануфактура, сепаратор, ускоритель распада, репроцессор топлива, печь сплавов, подаватель жидкости, плавитель, суперхолодильник, электролизёр, сборщик, формовщик чушек, прессовщик, химический реактор, смеситель жидкости, кристаллизатор, обогатитель жидкости, экстрактор жидкости, центрифуга, камнедробилка.
 gui.nc.config.gtce_recipe_logging=Журнал регистрации рецептов GTCE
 gui.nc.config.gtce_recipe_logging.comment=Будут ли записываться в журнал дополнения к рецептам GTCE?
 gui.nc.config.smart_processor_input=Умные входные порты машин
-gui.nc.config.smart_processor_input.comment=Будут ли допустимые входы машины зависеть от стеков, уже находящихся в ее входных слотах, а также от ее возможных рецептов?
+gui.nc.config.smart_processor_input.comment=Будут ли допустимые входы машины зависеть от стеков, уже находящихся в её входных слотах, а также от её возможных рецептов?
 gui.nc.config.passive_permeation=Пассивная проницаемость
 gui.nc.config.passive_permeation.comment=Будут ли пассивные машины, такие как активные охладители и электромагниты, распространять свои предметы, жидкость и энергию на соседние пассивные машины?
 gui.nc.config.processor_particles=Частицы
@@ -2455,7 +2457,7 @@ gui.nc.config.generator_rf_per_eu.comment=Коэффициент RF к EU. 1 EU 
 gui.nc.config.category.energy_storage=Настройка хранилищ энергии
 gui.nc.config.category.energy_storage.tooltip=Настройка хранилищ энергии.
 
-gui.nc.config.battery_capacity=Емкость аккумулятора
+gui.nc.config.battery_capacity=Ёмкость аккумулятора
 gui.nc.config.battery_capacity.comment=Максимальная хранимая мощность RF. Порядок: Вольтова куча [Базовый, Продвинутый, DU, Элитный], Литий-ионная батарея [Базовый, Продвинутый, DU, Элитный].
 
 gui.nc.config.category.fission=Настройка ядерных реакторов
@@ -2468,7 +2470,7 @@ gui.nc.config.fission_fuel_use.comment=Модифицирует количест
 gui.nc.config.fission_heat_generation=Множитель генерации тепла
 gui.nc.config.fission_heat_generation.comment=Модифицирует тепло, вырабатываемое реакторами деления.
 gui.nc.config.fission_cooling_rate=Скорость охлаждения
-gui.nc.config.fission_cooling_rate.comment=Базовое тепло, снимаемое за тик. Порядок: вода, железо, красный камень, кварц, обсидиан, нетерский кирпич, светящийся камень, ляпис, золото, призмарин, слизь, конечный камень, пурпур, алмаз, изумруд, медь, олово, свинец, бор, литий, магний, марганец, алюминий, серебро, флюорит, виллиумит, кароббиит, мышьяк, жидкий азот, жидкий гелий, эндериум, криотеум.
+gui.nc.config.fission_cooling_rate.comment=Базовое тепло, снимаемое за тик. Порядок: вода, железо, красный камень, кварц, обсидиан, нетерский кирпич, светящийся камень, лазурит, золото, призмарин, слизь, конечный камень, пурпур, алмаз, изумруд, медь, олово, свинец, бор, литий, магний, марганец, алюминий, серебро, флюорит, виллиумит, кароббиит, мышьяк, жидкий азот, жидкий гелий, эндериум, криотеум.
 gui.nc.config.fission_overheat=Включить расплавление
 gui.nc.config.fission_overheat.comment=Могут ли ядерные реакторы расплавиться при перегреве?
 gui.nc.config.fission_explosions=Включить взрывы
@@ -2492,7 +2494,6 @@ gui.nc.config.fission_moderator_extra_heat=Модификатор тепла м�
 gui.nc.config.fission_moderator_extra_heat.comment=*Влияет только на новые механики.* Определяет дополнительное тепло, выделяемое каждым блоком модератора, прилегающим к ячейке реактора. Равна эффективному количеству дополнительного тепла, генерируемого ячейкой, полностью окруженной блоками модератора. Каждый блок замедлителя вносит одну шестую часть этого количества тепла (количество дополнительного тепла линейно зависит от количества блоков замедлителя).
 gui.nc.config.fission_neutron_reach=Достижение нейтронного излучения
 gui.nc.config.fission_neutron_reach.comment=*Влияет только на новые механики.* Максимальное количество блоков модератора, которое может находиться между двумя ячейками, чтобы нейтронное излучение разделялось между ними и их эффективность увеличивалась.
-
 gui.nc.config.fission_thorium_fuel_time=Длительность работы ториевого топлива
 gui.nc.config.fission_thorium_fuel_time.comment=База тикает топливо последним. Порядок: TBU-TRISO, TBU-OX, TBU-NI, TBU-ZA, TBU-F4.
 gui.nc.config.fission_thorium_heat_generation=Теплогенерация ториевого топлива
@@ -2610,7 +2611,7 @@ gui.nc.config.fusion_meltdown_radiation_multiplier.comment=Модифициру�
 gui.nc.config.fusion_active_cooling=Включение активного охлаждения термоядерного синтеза
 gui.nc.config.fusion_active_cooling.comment=Можно ли активно охлаждать термоядерные реакторы (отключить, если они страдают от отставания)?
 gui.nc.config.fusion_active_cooling_rate=Скорость активного охлаждения
-gui.nc.config.fusion_active_cooling_rate.comment=Базовое тепло, снимаемое за тик/мБ. Порядок: вода, красный камень, кварц, золото, светящийся камень, ляпис, алмаз, жидкий гелий, эндер, криотеум, железо, изумруд, медь, олово, магний.
+gui.nc.config.fusion_active_cooling_rate.comment=Базовое тепло, снимаемое за тик/мБ. Порядок: вода, красный камень, кварц, золото, светящийся камень, лазурит, алмаз, жидкий гелий, эндер, криотеум, железо, изумруд, медь, олово, магний.
 gui.nc.config.fusion_min_size=Минимальный размер тороида
 gui.nc.config.fusion_min_size.comment=Минимальный размер тороидов слияния.
 gui.nc.config.fusion_max_size=Максимальный размер тороида
@@ -2641,7 +2642,7 @@ gui.nc.config.heat_exchanger_min_size.comment=Минимальная длина 
 gui.nc.config.heat_exchanger_max_size=Максимальная длина конструкции
 gui.nc.config.heat_exchanger_max_size.comment=Максимальная длина стороны теплообменников.
 gui.nc.config.heat_exchanger_conductivity=Проводимость трубы
-gui.nc.config.heat_exchanger_conductivity.comment=Множитель для скорости передачи тепла к и от данного типа труб. Для теплообменных трубок рецепты нагрева будут быстрее на этот коэффициент, а рецепты охлаждения будут медленнее на этот коэффициент. Для конденсационных трубок рецепты просто будут быстрее на этот коэффициент. Порядок: медь, твердый углерод, теплопроводящий сплав.
+gui.nc.config.heat_exchanger_conductivity.comment=Множитель для скорости передачи тепла к и от данного типа труб. Для теплообменных трубок рецепты нагрева будут быстрее на этот коэффициент, а рецепты охлаждения будут медленнее на этот коэффициент. Для конденсационных трубок рецепты просто будут быстрее на этот коэффициент. Порядок: медь, твёрдый углерод, теплопроводящий сплав.
 gui.nc.config.heat_exchanger_coolant_mult=Множитель тепла охладителя
 gui.nc.config.heat_exchanger_coolant_mult.comment=Множитель для тепла, необходимого для охлаждения горячего теплоносителя.
 gui.nc.config.heat_exchanger_alternate_exhaust_recipe=Альтернативный рецепт отработанного пара
@@ -2657,9 +2658,9 @@ gui.nc.config.turbine_max_size.comment=Максимальная длина ст�
 gui.nc.config.turbine_blade_efficiency=Эффективность лопастей ротора
 gui.nc.config.turbine_blade_efficiency.comment=Множитель для энергии, передаваемой от потока жидкости к лопастям ротора данного типа. Порядок: сталь, экстремальный сплав, SiC-SiC CMC.
 gui.nc.config.turbine_blade_expansion=Коэффициент расширения лопаток ротора
-gui.nc.config.turbine_blade_expansion.comment=Коэффициент, на который набор лопастей ротора данного типа увеличивает объем жидкости во встречном потоке. Порядок: сталь, экстремальный сплав, SiC-SiC CMC.
+gui.nc.config.turbine_blade_expansion.comment=Коэффициент, на который набор лопастей ротора данного типа увеличивает объём жидкости во встречном потоке. Порядок: сталь, экстремальный сплав, SiC-SiC CMC.
 gui.nc.config.turbine_stator_expansion=Коэффициент расширения статора ротора
-gui.nc.config.turbine_stator_expansion.comment=Коэффициент, на который набор статоров ротора умножает объем жидкости во встречном потоке.
+gui.nc.config.turbine_stator_expansion.comment=Коэффициент, на который набор статоров ротора умножает объём жидкости во встречном потоке.
 gui.nc.config.turbine_coil_conductivity=Проводимость катушки динамо-машины
 gui.nc.config.turbine_coil_conductivity.comment=Множитель для энергии, вырабатываемой данным типом динамо-катушки. Порядок: магний, бериллий, алюминий, золото, медь, серебро.
 gui.nc.config.turbine_power_per_mb=Базовая мощность турбины на мБ
@@ -2685,9 +2686,9 @@ gui.nc.config.category.quantum=Квантовые конфигурации
 gui.nc.config.category.quantum.tooltip=Конфигурирование квантовомеханических систем.
 
 gui.nc.config.quantum_max_qubits_live=Макс живых кубитов
-gui.nc.config.quantum_max_qubits_live.comment=Максимальное количество активно вычисляющих кубитов, которое может иметь один мультиблок квантового компьютера. !!!ВНИМАНИЕ!!! Если разрешить сложные схемы, состоящие более чем из семи кубитов, это начнет серьезно влиять на производительность и расходовать огромное количество памяти. Увеличивайте этот предел с ЭКСТРЕННОЙ осторожностью!
+gui.nc.config.quantum_max_qubits_live.comment=Максимальное количество активно вычисляющих кубитов, которое может иметь один мультиблок квантового компьютера. !!!ВНИМАНИЕ!!! Если разрешить сложные схемы, состоящие более чем из семи кубитов, это начнет серьёзно влиять на производительность и расходовать огромное количество памяти. Увеличивайте этот предел с ЭКСТРЕННОЙ осторожностью!
 gui.nc.config.quantum_max_qubits_code=Макс кодирование кубитов
-gui.nc.config.quantum_max_qubits_code.comment=Максимальное количество кубитов, которое может иметь один мультиблок квантового компьютера для генерации кода. !!!ВНИМАНИЕ!!! Гейты с большим количеством управляющих кубитов будут требовать все больше работы и памяти для декомпиляции в базовые операции, поэтому будут генерировать все более режимный код. При генерации QASM-кода компоновщик схем IBM Q Experience начнет с трудом справляться с более чем несколькими сотнями строк. Увеличивайте этот предел с ЭКСТРЕННОЙ осторожностью!
+gui.nc.config.quantum_max_qubits_code.comment=Максимальное количество кубитов, которое может иметь один мультиблок квантового компьютера для генерации кода. !!!ВНИМАНИЕ!!! Гейты с большим количеством управляющих кубитов будут требовать все больше работы и памяти для декомпиляции в базовые операции, поэтому будут генерировать всё более режимный код. При генерации QASM-кода компоновщик схем IBM Q Experience начнет с трудом справляться с более чем несколькими сотнями строк. Увеличивайте этот предел с ЭКСТРЕННОЙ осторожностью!
 gui.nc.config.quantum_angle_precision=Точность угла поворота ворот
 gui.nc.config.quantum_angle_precision.comment=Управляет точностью, допустимой для установки рабочего угла затворов, определяя количество доступных углов, равномерно распределенных от 0 до 360 градусов.
 
@@ -2695,37 +2696,37 @@ gui.nc.config.category.tool=Конфиги инструментов
 gui.nc.config.category.tool.tooltip=Настройка инструментов.
 
 gui.nc.config.tool_mining_level=Уровни добычи
-gui.nc.config.tool_mining_level.comment=Уровни добычи (дерево = 0, камень = 1 и т.д.). Порядок: бор, боровая мотыга, прочный сплав, мотыга из прочного слава, твёрдый углерод, мотыга из твердого углерода, нитрид бора, boron мотыга из нитрида бора.
+gui.nc.config.tool_mining_level.comment=Уровни добычи (дерево = 0, камень = 1 и т.д.). Порядок: бор, боровая мотыга, прочный сплав, мотыга из прочного слава, твёрдый углерод, мотыга из твёрдого углерода, нитрид бора, мотыга из нитрида бора.
 gui.nc.config.tool_durability=Прочность
-gui.nc.config.tool_durability.comment=Максимальное число использований инструмента. Порядок: бор, боровая мотыга, прочный сплав, мотыга из прочного слава, твёрдый углерод, мотыга из твердого углерода, нитрид бора, boron мотыга из нитрида бора.
+gui.nc.config.tool_durability.comment=Максимальное число использований инструмента. Порядок: бор, боровая мотыга, прочный сплав, мотыга из прочного слава, твёрдый углерод, мотыга из твёрдого углерода, нитрид бора, мотыга из нитрида бора.
 gui.nc.config.tool_speed=Скорость обработки
-gui.nc.config.tool_speed.comment=Определяет скорость разрушения блоков (дерево = 2.0, камень = 4.0 и т.д.). Порядок: бор, боровая мотыга, прочный сплав, мотыга из прочного слава, твёрдый углерод, мотыга из твердого углерода, нитрид бора, boron мотыга из нитрида бора.
+gui.nc.config.tool_speed.comment=Определяет скорость разрушения блоков (дерево = 2.0, камень = 4.0 и т.д.). Порядок: бор, боровая мотыга, прочный сплав, мотыга из прочного слава, твёрдый углерод, мотыга из твёрдого углерода, нитрид бора, мотыга из нитрида бора.
 gui.nc.config.tool_attack_damage=Ущерб от атаки
-gui.nc.config.tool_attack_damage.comment=Урон, наносимый за удар (дерево = 0.0, камень = 1.0 и т.д.). Порядок: бор, боровая мотыга, прочный сплав, мотыга из прочного слава, твёрдый углерод, мотыга из твердого углерода, нитрида бора, мотыга из нитрида бора.
+gui.nc.config.tool_attack_damage.comment=Урон, наносимый за удар (дерево = 0.0, камень = 1.0 и т.д.). Порядок: бор, боровая мотыга, прочный сплав, мотыга из прочного слава, твёрдый углерод, мотыга из твёрдого углерода, нитрида бора, мотыга из нитрида бора.
 gui.nc.config.tool_enchantability=Зачаровываемость
-gui.nc.config.tool_enchantability.comment=Определяет качество накладываемых зачарований. Порядок: бор, боровая мотыга, прочный сплав, мотыга из прочного слава , твёрдый углерод, мотыга из твердого углерода, нитрид бора, мотыга из нитрида бора.
+gui.nc.config.tool_enchantability.comment=Определяет качество накладываемых зачарований. Порядок: бор, боровая мотыга, прочный сплав, мотыга из прочного слава , твёрдый углерод, мотыга из твёрдого углерода, нитрид бора, мотыга из нитрида бора.
 gui.nc.config.tool_handle_modifier=TiC Модификаторы рукояток
-gui.nc.config.tool_handle_modifier.comment=Определяет модификаторы рукояток материалов Tinkers' Construct. Порядок: бор, прочный сплав, твердый углерод, нитрид бора.
+gui.nc.config.tool_handle_modifier.comment=Определяет модификаторы рукояток материалов Tinkers' Construct. Порядок: бор, прочный сплав, твёрдый углерод, нитрид бора.
 
 gui.nc.config.category.armor= Конфиги брони
 gui.nc.config.category.armor.tooltip=Настроить броню.
 
 gui.nc.config.armor_durability=Долговечность
-gui.nc.config.armor_durability.comment=Прочность типов брони. Порядок: бор, прочный сплав, твердый углерод, нитрид бора, хазмат.
+gui.nc.config.armor_durability.comment=Прочность типов брони. Порядок: бор, прочный сплав, твёрдый углерод, нитрид бора, хазмат.
 gui.nc.config.armor_boron=Защита броней из бора
 gui.nc.config.armor_boron.comment=Эффективность отдельных частей брони. Порядок: сапоги, ноги, грудь, шлем.
 gui.nc.config.armor_tough=Защита от брони из прочного сплава
 gui.nc.config.armor_tough.comment=Эффективность отдельных частей брони. Порядок: сапоги, ноги, грудь, шлем.
-gui.nc.config.armor_hard_carbon=Защита от брони из твердого углерода
+gui.nc.config.armor_hard_carbon=Защита от брони из твёрдого углерода
 gui.nc.config.armor_hard_carbon.comment=Эффективность отдельных элементов брони. Порядок: сапоги, ноги, грудь, шлем.
 gui.nc.config.armor_boron_nitride=Защита брони из нитрида бора
 gui.nc.config.armor_boron_nitride.comment=Эффективность отдельных элементов брони. Порядок: сапоги, ноги, грудь, шлем.
 gui.nc.config.armor_hazmat=Защита от брони костюма хазмата
 gui.nc.config.armor_hazmat.comment=Эффективность отдельных частей брони. Порядок: сапоги, ноги, грудь, шлем.
 gui.nc.config.armor_enchantability=Зачаровываемость
-gui.nc.config.armor_enchantability.comment=Определяет качество применяемых зачарований. Порядок: бор, прочный сплав, твердый углерод, нитрид бора, опасные вещества.
+gui.nc.config.armor_enchantability.comment=Определяет качество применяемых зачарований. Порядок: бор, прочный сплав, твёрдый углерод, нитрид бора, опасные вещества.
 gui.nc.config.armor_toughness=Жесткость
-gui.nc.config.armor_toughness.comment=Жесткость типов брони. Порядок: бор, прочный сплав, твердый углерод, нитрид бора, хазмат.
+gui.nc.config.armor_toughness.comment=Жесткость типов брони. Порядок: бор, прочный сплав, твёрдый углерод, нитрид бора, хазмат.
 
 gui.nc.config.category.entity=Настройка сущностей
 gui.nc.config.category.entity.tooltip=Настройка сущностей.
@@ -2757,8 +2758,8 @@ gui.nc.config.radiation_world_limits=Мировой предел радиаци�
 gui.nc.config.radiation_world_limits.comment=Список измерений и их предельных уровней радиации. Формат: 'dimID_radiationLimit'.
 gui.nc.config.radiation_biome_limits=Предел радиации биома
 gui.nc.config.radiation_biome_limits.comment=Список биомов и их предельных уровней радиации. Эти значения складываются с фоновой радиацией основного мира. Формат: 'modid:biomeName_radiationLimit'.
-gui.nc.config.radiation_from_biomes_dims_blacklist=Черный список измерений радиации биомов
-gui.nc.config.radiation_from_biomes_dims_blacklist.comment=Список идентификаторов измерений для черного списка фоновой радиации биома.
+gui.nc.config.radiation_from_biomes_dims_blacklist=Чёрный список измерений радиации биомов
+gui.nc.config.radiation_from_biomes_dims_blacklist.comment=Список идентификаторов измерений для чёрного списка фоновой радиации биома.
 
 gui.nc.config.radiation_ores=Радиация рудных стеков
 gui.nc.config.radiation_ores.comment=Список записей в дикте руды и их уровней радиации в стеке. Может использоваться для перезаписи значений по умолчанию. Можно использовать подстановочные знаки в стиле Unix для названия руды. Формат: 'oreName_radiationLevel'.
@@ -2771,13 +2772,13 @@ gui.nc.config.radiation_fluids.comment=Список жидкостей и их �
 gui.nc.config.radiation_foods=Радиация и устойчивость продуктов питания
 gui.nc.config.radiation_foods.comment=Список продуктов питания и получаемых при их употреблении радиации и сопротивления. Отрицательные значения означают, что радиация и сопротивление будут потеряны. Может использоваться для перезаписи значений по умолчанию. Формат: 'modid:name:meta_radiationLevel_radiationResistance'.
 
-gui.nc.config.radiation_ores_blacklist=Черный список радиации в стеках
+gui.nc.config.radiation_ores_blacklist=Чёрный список радиации в стеках
 gui.nc.config.radiation_ores_blacklist.comment=Список записей в дикте руды, которые будут принудительно не иметь уровня радиации. Можно использовать подстановочные знаки в стиле Unix для названия руды. Формат: 'oreName'.
-gui.nc.config.radiation_items_blacklist=Черный список радиации стека предметов
+gui.nc.config.radiation_items_blacklist=Чёрный список радиации стека предметов
 gui.nc.config.radiation_items_blacklist.comment=Список предметов, которые будут принудительно не иметь уровня радиации. Формат: 'modid:name:meta'.
-gui.nc.config.radiation_blocks_blacklist=Черный список радиации стека блоков
+gui.nc.config.radiation_blocks_blacklist=Чёрный список радиации стека блоков
 gui.nc.config.radiation_blocks_blacklist.comment=Список блоков, которые будут принудительно не иметь уровня радиации. Формат: 'modid:name:meta'.
-gui.nc.config.radiation_fluids_blacklist=Черный список радиации жидкостей
+gui.nc.config.radiation_fluids_blacklist=Чёрный список радиации жидкостей
 gui.nc.config.radiation_fluids_blacklist.comment=Список жидкостей, которые будут принудительно не иметь уровня радиации. Формат: 'fluidName'.
 
 gui.nc.config.max_player_rads=Макс радиации игрока
@@ -2799,8 +2800,8 @@ gui.nc.config.radiation_lowest_rate.comment=Минимальная скорос�
 gui.nc.config.radiation_chunk_limit=Лимит радиации чанка
 gui.nc.config.radiation_chunk_limit.comment=Максимальный уровень радиации чанка, возможный в рад/т. Отрицательное значение означает отсутствие ограничения.
 
-gui.nc.config.radiation_sound_volumes=Объемы звука излучения
-gui.nc.config.radiation_sound_volumes.comment=Модификаторы громкости звуковых эффектов радиации. Порядок: Тиканье счетчика Гейгера, использование RadAway, использование Рад-х, эффекты еды, действие химикатов, разрыв значка радиации, предупреждение об уровне радиации, атака дикого упыря.
+gui.nc.config.radiation_sound_volumes=Объёмы звука излучения
+gui.nc.config.radiation_sound_volumes.comment=Модификаторы громкости звуковых эффектов радиации. Порядок: Тиканье счётчика Гейгера, использование RadAway, использование Рад-х, эффекты еды, действие химикатов, разрыв значка радиации, предупреждение об уровне радиации, атака дикого упыря.
 gui.nc.config.radiation_check_blocks=Блокировать вклад радиации
 gui.nc.config.radiation_check_blocks.comment= Должны ли блоки, не являющиеся плиточными сущностями, вносить вклад в радиацию чанков?
 gui.nc.config.radiation_block_effect_max_rate=Максимальная скорость мутации радиационных блоков
@@ -2829,31 +2830,31 @@ gui.nc.config.radiation_rad_x_lifetime.comment=Время действия од�
 gui.nc.config.radiation_rad_x_cooldown=Время охлаждения Рад-Х
 gui.nc.config.radiation_rad_x_cooldown.comment=Время, которое должно пройти между дозами Rad-X в тиках.
 gui.nc.config.radiation_shielding_level=Уровни экранирования радиации
-gui.nc.config.radiation_shielding_level.comment=Уровни радиационной стойкости, обеспечиваемые тремя уровнями экранирования. Порядок: легкий, средний, тяжелый.
+gui.nc.config.radiation_shielding_level.comment=Уровни радиационной стойкости, обеспечиваемые тремя уровнями экранирования. Порядок: лёгкий, средний, тяжёлый.
 gui.nc.config.radiation_tile_shielding=Экранирование радиационного контейнера
 gui.nc.config.radiation_tile_shielding.comment=Если включено вместе с жесткими контейнерами, радиационное экранирование может быть применено к сущностям плитки.
 gui.nc.config.radiation_hazmat_shielding=Экранирование радиационной опасности
 gui.nc.config.radiation_hazmat_shielding.comment=Уровни радиационной стойкости, обеспечиваемые каждым элементом костюма защитника. Порядок: головной убор, нагрудник, гамаши, ботинки.
-gui.nc.config.radiation_scrubber_fraction=Максимальная скорость удаления радиации из скруббера
-gui.nc.config.radiation_scrubber_fraction.comment=Максимальная скорость, с которой скраббер со 100% эффективностью будет удалять радиацию в долях от уровня радиации чанка, в котором он находится. Применяется только при использовании линейной механики скраббера.
-gui.nc.config.radiation_scrubber_radius=Радиус поиска скруббера
-gui.nc.config.radiation_scrubber_radius.comment=Радиус поиска скрабберами окклюдированных блоков.
-gui.nc.config.radiation_scrubber_non_linear=Нелинейная механика скраббера
-gui.nc.config.radiation_scrubber_non_linear.comment=Использовать нелинейное уравнение скорости скраббера вместо линейного поведения?
-gui.nc.config.radiation_scrubber_param=Параметры нелинейного скруббера
-gui.nc.config.radiation_scrubber_param.comment=Четыре параметра a,b,c,d в уравнении скорости нелинейного скраббера 'F = a^[-(S/b)^(S/c + 1)^(1/d)]', где 'F' - оставшаяся доля излучения в буфере обновления чанка после скраббера, а 'S' - эффективное количество скрабберов в чанке после учета их эффективности. Рекомендуется изменять эти параметры только в том случае, если вы знаете, что делаете.
-gui.nc.config.radiation_scrubber_time=Время жизни рецепта скруббера
+gui.nc.config.radiation_scrubber_fraction=Максимальная скорость удаления радиации из газопромывателя
+gui.nc.config.radiation_scrubber_fraction.comment=Максимальная скорость, с которой газопромыватель со 100% эффективностью будет удалять радиацию в долях от уровня радиации чанка, в котором он находится. Применяется только при использовании линейной механики газопромывателя.
+gui.nc.config.radiation_scrubber_radius=Радиус поиска газопромывателя
+gui.nc.config.radiation_scrubber_radius.comment=Радиус поиска газопромывателями окклюдированных блоков.
+gui.nc.config.radiation_scrubber_non_linear=Нелинейная механика газопромывателя
+gui.nc.config.radiation_scrubber_non_linear.comment=Использовать нелинейное уравнение скорости газопромывателя вместо линейного поведения?
+gui.nc.config.radiation_scrubber_param=Параметры нелинейного газопромывателя
+gui.nc.config.radiation_scrubber_param.comment=Четыре параметра a,b,c,d в уравнении скорости нелинейного газопромывателя 'F = a^[-(S/b)^(S/c + 1)^(1/d)]', где 'F' - оставшаяся доля излучения в буфере обновления чанка после газопромывателя, а 'S' - эффективное количество газопромывателей в чанке после учёта их эффективности. Рекомендуется изменять эти параметры только в том случае, если вы знаете, что делаете.
+gui.nc.config.radiation_scrubber_time=Время жизни рецепта газопромывателя
 gui.nc.config.radiation_scrubber_time.comment=Время жизни в тиках одного элемента или 250 мБ жидкости в активном скруббере. Порядок: буровая пыль, RadAway, медленно действующий RadAway
-gui.nc.config.radiation_scrubber_power=Использование мощности рецепта скруббера
-gui.nc.config.radiation_scrubber_power.comment=Для работы скрубберов с данными ингредиентами требуется мощность в RF/t. Порядок: буровая пыль, RadAway, медленно действующий RadAway
-gui.nc.config.radiation_scrubber_efficiency=Эффективность рецепта скруббера
-gui.nc.config.radiation_scrubber_efficiency.comment=Эффективность активного скраббера, использующего эти ингредиенты. Порядок: буровая пыль, RadAway, медленно действующий RadAway
+gui.nc.config.radiation_scrubber_power=Использование мощности рецепта газопромывателя
+gui.nc.config.radiation_scrubber_power.comment=Для работы газопромывателей с данными ингредиентами требуется мощность в RF/t. Порядок: буровая пыль, RadAway, медленно действующий RadAway
+gui.nc.config.radiation_scrubber_efficiency=Эффективность рецепта газопромывателя
+gui.nc.config.radiation_scrubber_efficiency.comment=Эффективность активного газопромывателя, использующего эти ингредиенты. Порядок: буровая пыль, RadAway, медленно действующий RadAway
 gui.nc.config.radiation_geiger_block_redstone=Шкала компаратора блоков Гейгера
-gui.nc.config.radiation_geiger_block_redstone.comment=Уровень радиации, в степени десяти, при котором блок счетчика Гейгера будет издавать сигнал компаратора полной мощности.
+gui.nc.config.radiation_geiger_block_redstone.comment=Уровень радиации, в степени десяти, при котором блок счётчика Гейгера будет издавать сигнал компаратора полной мощности.
 
 gui.nc.config.radiation_shielding_default_recipes=Рецепты радиационной защиты по умолчанию
 gui.nc.config.radiation_shielding_default_recipes.comment=Если включено, рецепты крепления радиационной защиты будут добавлены для всех зарегистрированных частей брони.
-gui.nc.config.radiation_shielding_item_blacklist=Черный список предметов стека радиационной защиты
+gui.nc.config.radiation_shielding_item_blacklist=Чёрный список предметов стека радиационной защиты
 gui.nc.config.radiation_shielding_item_blacklist.comment=Список стеков предметов брони, для которых рецепты экранирования не будут добавляться по умолчанию. Формат: 'modid:armorName:meta'.
 gui.nc.config.radiation_shielding_custom_stacks=Белый список стеков предметов радиационного экранирования
 gui.nc.config.radiation_shielding_custom_stacks.comment=Список стеков предметов брони, для которых будут добавлены рецепты экранирования. В основном используется, когда автоматические рецепты экранирования отключены. Формат: 'modid:armorName:meta'.
@@ -2867,12 +2868,12 @@ gui.nc.config.radiation_hud_position.comment=Угол от центра экра
 gui.nc.config.radiation_hud_position_cartesian=Декартовое положение HUD
 gui.nc.config.radiation_hud_position_cartesian.comment=Опциональный конфиг для указания места появления накладки rads на экране, если она не нужна сбоку или под углом - если используется, этот конфиг будет использоваться вместо углового. Требуется два двойных значения [x, y], которые указывают, как далеко вправо (x) и как далеко вниз (y) от левого верхнего угла экрана будет нарисовано наложение.
 gui.nc.config.radiation_hud_text_outline=Контур текста HUD
-gui.nc.config.radiation_hud_text_outline.comment=Если этот параметр включен, текст счетчика радиации будет обведен черным контуром под радиобаром.
+gui.nc.config.radiation_hud_text_outline.comment=Если этот параметр включен, текст счётчика радиации будет обведён чёрным контуром под радиобаром.
 
-gui.nc.config.radiation_require_counter=Счетчик, необходимый для получения информации
-gui.nc.config.radiation_require_counter.comment=Если отключено, накладка радаров будет отображаться и тиканье будет слышно, даже если счетчик Гейгера не удерживается.
-gui.nc.config.radiation_chunk_boundaries=Границы счетчика/скруббера
-gui.nc.config.radiation_chunk_boundaries.comment=Если включено, границы кусков будут отображаться при удержании или просмотре блока счетчика Гейгера или радиационного скраббера.
+gui.nc.config.radiation_require_counter=Счётчик, необходимый для получения информации
+gui.nc.config.radiation_require_counter.comment=Если отключено, накладка радаров будет отображаться и тиканье будет слышно, даже если счётчик Гейгера не удерживается.
+gui.nc.config.radiation_chunk_boundaries=Границы счётчика/газопромывателя
+gui.nc.config.radiation_chunk_boundaries.comment=Если включено, границы кусков будут отображаться при удержании или просмотре блока счётчика Гейгера или радиационного газопромывателя.
 gui.nc.config.radiation_unit_prefixes=Префиксы единиц радиации
 gui.nc.config.radiation_unit_prefixes.comment=Если установлено целое положительное число, уровни радиации будут показаны без префиксов единиц с точностью до этого числа значащих цифр.
 
@@ -2914,7 +2915,7 @@ gui.nc.config.category.registration=Регистрационные конфиг�
 gui.nc.config.category.registration.tooltip=Настроить регистрацию контента.
 
 gui.nc.config.register_processor=Регистрация процессоров
-gui.nc.config.register_processor.comment=Регистрировать процессоры в игре? Порядок: Ядерная печь, Мануфактура, Сепаратор, Ускоритель распада, Переработчик топлива, Печь сплавов, Инфузор жидкости, Плавитель, Суперхолодильник, Электролизер, Сборщик, Формовщик болванок, Прессователь, Химический реактор, Смеситель жидкости, Кристаллизатор, Обогатитель жидкости, Экстрактор жидкости, Центрифуга, Дробилка горных пород.
+gui.nc.config.register_processor.comment=Регистрировать процессоры в игре? Порядок: Ядерная печь, Мануфактура, Сепаратор, Ускоритель распада, Переработчик топлива, Печь сплавов, Инфузор жидкости, Плавитель, Суперхолодильник, Электролизёр, Сборщик, Формовщик болванок, Прессователь, Химический реактор, Смеситель жидкости, Кристаллизатор, Обогатитель жидкости, Экстрактор жидкости, Центрифуга, Дробилка горных пород.
 gui.nc.config.register_passive=Регистрация пассивных машин
 gui.nc.config.register_passive.comment=Зарегистрировать пассивные машины в игре? Порядок: Генератор булыжника, Бесконечный источник воды, Сборщик азота.
 gui.nc.config.register_battery=Регистрация батарей
@@ -2922,13 +2923,13 @@ gui.nc.config.register_battery.comment=Зарегистрировать блок
 gui.nc.config.register_quantum= Регистрация квантового компьютера
 gui.nc.config.register_quantum.comment=Зарегистрировать квантовые компьютеры в игре?
 gui.nc.config.register_tool=Регистрация инструментов
-gui.nc.config.register_tool.comment=Зарегистрировать типы инструментов в игре? Порядок: бор, твердый сплав, твердый углерод, нитрид бора.
+gui.nc.config.register_tool.comment=Зарегистрировать типы инструментов в игре? Порядок: бор, твёрдый сплав, твёрдый углерод, нитрид бора.
 gui.nc.config.register_tic_tool= Регистрация материалов инструментов TiC
-gui.nc.config.register_tic_tool.comment=Будут ли эти материалы зарегистрированы в качестве инструментальных материалов для Tinkers' Construct? Порядок: бор, твердый сплав, твердый углерод, нитрид бора, торий, уран, магний, шоколад.
+gui.nc.config.register_tic_tool.comment=Будут ли эти материалы зарегистрированы в качестве инструментальных материалов для Tinkers' Construct? Порядок: бор, твёрдый сплав, твёрдый углерод, нитрид бора, торий, уран, магний, шоколад.
 gui.nc.config.register_armor=Зарегистрировать броню
-gui.nc.config.register_armor.comment=Зарегистрировать типы брони в игре? Порядок: бор, прочный сплав, твердый углерод, нитрид бора.
+gui.nc.config.register_armor.comment=Зарегистрировать типы брони в игре? Порядок: бор, прочный сплав, твёрдый углерод, нитрид бора.
 gui.nc.config.register_conarm_armor= Регистрация материала брони конармии
-gui.nc.config.register_conarm_armor.comment=Будут ли эти материалы зарегистрированы как материалы для брони в оружейной Construct's Armory? Порядок: бор, твердый сплав, твердый углерод, нитрид бора, торий, уран, магний, шоколад.
+gui.nc.config.register_conarm_armor.comment=Будут ли эти материалы зарегистрированы как материалы для брони в оружейной Construct's Armory? Порядок: бор, твёрдый сплав, твёрдый углерод, нитрид бора, торий, уран, магний, шоколад.
 gui.nc.config.register_entity= Регистрация порождения существ
 gui.nc.config.register_entity.comment=Будут ли эти сущности зарегистрированы для спавна? Порядок: одичавший упырь.
 gui.nc.config.register_fluid_blocks=Регистрация жидких блоков
@@ -2996,12 +2997,12 @@ nc.block.fluid_toggle_opposite=Переключить противоположн
 
 nc.block.salt_heater_fluid_side.default=ПО УМОЛЧАНИЮ
 nc.block.salt_heater_fluid_side.disabled=ОТКЛЮЧЕНО
-nc.block.salt_heater_fluid_side.hot_coolant_out=ВЫХОД ГОРЯЧЕГО ХЛАДОАГЕНТА
-nc.block.salt_heater_fluid_side.coolant_spread=РАСПРОСТРАНЕНИЕ ХЛАДОАГЕНТА
+nc.block.salt_heater_fluid_side.hot_coolant_out=ВЫХОД ГОРЯЧЕГО ХЛАДОГЕНТА
+nc.block.salt_heater_fluid_side.coolant_spread=РАСПРОСТРАНЕНИЕ ХЛАДОГЕНТА
 
 nc.block.salt_vessel_fluid_side.default=ПО УМОЛЧАНИЮ
 nc.block.salt_vessel_fluid_side.disabled=ОТКЛЮЧЕНО
-nc.block.salt_vessel_fluid_side.depleted_out=ВЫХОД ОБЕДНЕННОГО
+nc.block.salt_vessel_fluid_side.depleted_out=ВЫХОД ОБЕДНЁННОГО
 nc.block.salt_vessel_fluid_side.fuel_spread=РАСПРОСТРАНЕНИЕ ТОПЛИВА
 
 nc.block.exchanger_tube_fluid_side.disabled=ОТКЛЮЧЕНО
@@ -3021,7 +3022,7 @@ nuclearcraft.container.alloy_furnace=Сплавная печь
 nuclearcraft.container.infuser=Впрыскиватель
 nuclearcraft.container.melter=Плавильня
 nuclearcraft.container.supercooler=Суперохладитель
-nuclearcraft.container.electrolyzer=Электролизер
+nuclearcraft.container.electrolyzer=Электролизёр
 nuclearcraft.container.assembler=Сборщик
 nuclearcraft.container.ingot_former=Литейный тигель
 nuclearcraft.container.pressurizer=Компрессор
@@ -3047,7 +3048,7 @@ nuclearcraft.container.nitrogen_collector=Азотный сборщик
 nuclearcraft.container.nitrogen_collector_compact=Компактный сборщик азота
 nuclearcraft.container.nitrogen_collector_dense=Плотный сборщик азота
 
-nuclearcraft.container.radiation_scrubber=Радиационный очиститель
+nuclearcraft.container.radiation_scrubber=Радиационный газопромыватель
 
 gui.nc.container.no_cluster=кластеры отсутствуют
 
@@ -3067,7 +3068,7 @@ gui.nc.container.fission_controller.heat_stored=Уровень нагрева к
 gui.nc.container.fission_irradiator.irradiator=Делящийся облучатель
 gui.nc.container.fission_irradiator.heat_stored=Уровень тепла кластера:
 
-gui.nc.container.solid_fission_controller.reactor=Реактор на твердом топливе
+gui.nc.container.solid_fission_controller.reactor=Реактор на твёрдом топливе
 gui.nc.container.solid_fission_controller.output_rate=Скорость производства:
 
 gui.nc.container.solid_fission_cell.cell=Ячейка деления топлива
@@ -3142,7 +3143,7 @@ gui.nc.container.slot_setting_config=Настройка слота:
 gui.nc.container.tank_setting_config=Настройка резервуара:
 gui.nc.container.default_setting_config=ПО УМОЛЧАНИЮ
 gui.nc.container.void_excess_setting_config=ИЗБЫТОК ПУСТОТЫ
-gui.nc.container.void_setting_config=ОТМЕНИТЬ ВСЕ
+gui.nc.container.void_setting_config=ОТМЕНИТЬ ВСЁ
 
 gui.nc.container.bottom_config=ВНИЗУ:
 gui.nc.container.top_config=СВЕРХУ:
@@ -3158,7 +3159,7 @@ gui.nc.container.non_config=ВЫКЛЮЧЕНО
 info.nuclearcraft.item_energy.energy_stored=Запас энергии:
 info.nuclearcraft.item_energy.power_tier=EU Уровень энергии:
 
-gui.nc.container.shift_clear_multiblock=Щелкните Shift, чтобы очистить элементы и жидкости ВСЕХ компонентов
+gui.nc.container.shift_clear_multiblock=Щёлкните Shift, чтобы очистить элементы и жидкости ВСЕХ компонентов
 
 nuclearcraft.multiblock_validation.invalid_block=%4$s не является действительным блоком на [%1$d, %2$d, %3$d].
 nuclearcraft.multiblock_validation.no_controller=Для формирования мультиблока должен существовать контроллер
@@ -3191,7 +3192,7 @@ nuclearcraft.fission_moderator.jei_name=Модератор реактора
 nuclearcraft.fission_reflector.jei_name=Отражатель нейтронов
 nuclearcraft.fission_irradiator.jei_name=Нейтронный облучатель
 nuclearcraft.pebble_fission.jei_name=Деление TRISO-топлива
-nuclearcraft.solid_fission.jei_name=Деление твердого топлива
+nuclearcraft.solid_fission.jei_name=Деление твёрдого топлива
 nuclearcraft.fission_moderator.jei_name=Модераторы реактора
 nuclearcraft.fission_reflector.jei_name=Отражатели нейтронов
 nuclearcraft.fission_heating.jei_name=Теплоноситель ядерного реактора
@@ -3201,10 +3202,10 @@ nuclearcraft.coolant_heater.jei_name=Охлаждение реактора на 
 nuclearcraft.heat_exchanger.jei_name=Труба теплообменника
 nuclearcraft.condenser.jei_name=Конденсационная труба
 nuclearcraft.turbine.jei_name=Турбина
-nuclearcraft.radiation_scrubber.jei_name=Радиационный очиститель
+nuclearcraft.radiation_scrubber.jei_name=Радиационный газопромыватель
 
 advancement.nuclearcraft.root.name=NuclearCraft
-advancement.nuclearcraft.root.desc=Ядерная физика, в стиле Minecraft
+advancement.nuclearcraft.root.desc=Ядерная физика в стиле Minecraft
 
 advancement.nuclearcraft.manufactory.name=Индустриализация
 advancement.nuclearcraft.manufactory.desc=Создайте мануфактуру
@@ -3212,16 +3213,16 @@ advancement.nuclearcraft.manufactory.desc=Создайте мануфактур�
 advancement.nuclearcraft.separator.name=Фракционирование
 advancement.nuclearcraft.separator.desc=Cоздайте сепаратор
 
-advancement.nuclearcraft.voltaic_pile_basic.name=Электрический проспект
+advancement.nuclearcraft.voltaic_pile_basic.name=Электрический переулок
 advancement.nuclearcraft.voltaic_pile_basic.desc=Создайте базовую вольтаическую кучу
 
 advancement.nuclearcraft.electrolyzer.name=Шипучие электроды
-advancement.nuclearcraft.electrolyzer.desc=Создайте электролизер
+advancement.nuclearcraft.electrolyzer.desc=Создайте электролизёр
 
 advancement.nuclearcraft.decay_generator.name=Энергия Альфа
 advancement.nuclearcraft.decay_generator.desc=Создайте генератор рапсада
 
-advancement.nuclearcraft.bin.name=Г-н Дилкингтон
+advancement.nuclearcraft.bin.name=В никуда
 advancement.nuclearcraft.bin.desc=Создайте универсальную корзину
 
 advancement.nuclearcraft.portable_ender_chest.name=Мэри Поппинс
@@ -3254,7 +3255,7 @@ advancement.nuclearcraft.assembler.desc=Создайте сборщик
 advancement.nuclearcraft.solar_panel_basic.name=Экологичность
 advancement.nuclearcraft.solar_panel_basic.desc=Создайте базовую солнечную панель
 
-advancement.nuclearcraft.rtg_uranium.name=Теплый зеленый свет
+advancement.nuclearcraft.rtg_uranium.name=Тёплый зелёный свет
 advancement.nuclearcraft.rtg_uranium.desc=Создайте урановый РИТЭГ
 
 advancement.nuclearcraft.infuser.name=Впитывание
@@ -3299,7 +3300,7 @@ advancement.nuclearcraft.centrifuge.desc=Создайте центрифугу
 advancement.nuclearcraft.rock_crusher.name=Прокатка камней
 advancement.nuclearcraft.rock_crusher.desc=Создайте камнедробилку
 
-advancement.nuclearcraft.plutonium.name=Реактивно!
+advancement.nuclearcraft.plutonium.name=Мирный атом
 advancement.nuclearcraft.plutonium.desc=Получите немного плутония
 
 advancement.nuclearcraft.rtg_americium.name=Радиационная энергия
@@ -3326,8 +3327,8 @@ advancement.nuclearcraft.californium.desc=Получите немного бер
 advancement.nuclearcraft.solid_fission_controller.name=Расщепление атома [1/2]
 advancement.nuclearcraft.solid_fission_controller.desc=Создайте контроллер ядерного реактора
 
-advancement.nuclearcraft.salt_fission_controller.name=Ядерное Оружие Следующего Поколения [1/2]
-advancement.nuclearcraft.salt_fission_controller.desc=создайте контроллер реактора на расплавах солей
+advancement.nuclearcraft.salt_fission_controller.name=Ядерная энергетика следующего поколения [1/2]
+advancement.nuclearcraft.salt_fission_controller.desc=Создайте контроллер реактора на расплавах солей
 
 advancement.nuclearcraft.heat_exchanger_controller.name=Тепловой Контакт [1/2]
 advancement.nuclearcraft.heat_exchanger_controller.desc=Создайте контроллер теплообменника
@@ -3341,7 +3342,7 @@ advancement.nuclearcraft.condenser_controller.desc=Создайте контро
 advancement.nuclearcraft.solid_fission_reactor_assembled.name=Расщепление атома [2/2]
 advancement.nuclearcraft.solid_fission_reactor_assembled.desc=Постройте твердотопливный ядерный реактор
 
-advancement.nuclearcraft.salt_fission_reactor_assembled.name=Ядерное Оружие Следующего Поколения [2/2]
+advancement.nuclearcraft.salt_fission_reactor_assembled.name=Ядерная энергетика следующего поколения [2/2]
 advancement.nuclearcraft.salt_fission_reactor_assembled.desc=Постройте реактор на расплавах солей
 
 advancement.nuclearcraft.heat_exchanger_assembled.name=Тепловой Контакт [2/2]
@@ -3353,25 +3354,25 @@ advancement.nuclearcraft.turbine_assembled.desc=Постройте турбин�
 advancement.nuclearcraft.condenser_assembled.name=Завершение круга [2/2]
 advancement.nuclearcraft.condenser_assembled.desc=Постройте конденсатор
 
-advancement.nuclearcraft.geiger_counter.name=Припять Препараты
-advancement.nuclearcraft.geiger_counter.desc=Соберите счетчик Гейгера
+advancement.nuclearcraft.geiger_counter.name=Зов Припяти
+advancement.nuclearcraft.geiger_counter.desc=Создайте счётчик Гейгера
 
-advancement.nuclearcraft.radaway.name=Избавление от Радов
+advancement.nuclearcraft.radaway.name=Избавление от радов
 advancement.nuclearcraft.radaway.desc=Изготовьте немного антирада
 
-advancement.nuclearcraft.rad_x.name=Имитационный Иммунитет
+advancement.nuclearcraft.rad_x.name=Имитационный иммунитет
 advancement.nuclearcraft.rad_x.desc=Изготовьте радиопротектор
 
 advancement.nuclearcraft.rad_shielding.name=Храбрый Сэр Робин
-advancement.nuclearcraft.rad_shielding.desc=Соберите парочку Тяжелых Радиационных Щитов
+advancement.nuclearcraft.rad_shielding.desc=Соберите парочку тяжёлых радиационных щитов
 
-advancement.nuclearcraft.radiation_scrubber.name=Контроль Загрязнения
-advancement.nuclearcraft.radiation_scrubber.desc=Соберите Радиационный Очиститель
+advancement.nuclearcraft.radiation_scrubber.name=Ликвидатор
+advancement.nuclearcraft.radiation_scrubber.desc=Создайте радиационный газопромыватель
 
 advancement.nuclearcraft.marshmallow.name=Маневр Лэнсделл'а
 advancement.nuclearcraft.marshmallow.desc=Приготовьте зефир
 
-advancement.nuclearcraft.smore.name=Собраться у Костра
+advancement.nuclearcraft.smore.name=Собраться у костра
 advancement.nuclearcraft.smore.desc=Приготовьте ш'мекер
 
 advancement.nuclearcraft.moresmore.name=Вкусняшка же
@@ -3383,7 +3384,7 @@ advancement.nuclearcraft.foursmore.desc=Приготовьте квадаш'ме
 block.nc.fusion_run=Запуск термоядерного реактора
 block.nc.turbine_run=Запуск турбины
 
-player.nc.geiger_tick=Щелчок счетчика Гейгера
+player.nc.geiger_tick=Щелчок счётчика Гейгера
 player.nc.radaway=Использование антирада
 player.nc.rad_x=Использование радиопротектора
 player.nc.chems_wear_off=Использование химикатов
@@ -3431,7 +3432,7 @@ message.nuclearcraft.filter=Установите фильтр на:
 message.nuclearcraft.qubit_id=Кубит ID:
 
 message.nuclearcraft.rad_x_wore_off=Ваш Рад-X выветрился...
-message.nuclearcraft.rad_warning= Во рту появляется неприятный металлический привкус и начинает нарастать мучительная головная боль... Вы страдаете от радиационного отравления! Было бы разумно взять в руки счетчик Гейгера, чтобы определить серьезность ситуации...
+message.nuclearcraft.rad_warning= Во рту появляется неприятный металлический привкус и начинает нарастать мучительная головная боль... Вы страдаете от радиационного отравления! Было бы разумно взять в руки счётчик Гейгера, чтобы определить серьёзность ситуации...
 message.nuclearcraft.radaway_cooling_down=Ваше охлаждение Рад-X находится на уровне
 message.nuclearcraft.rad_x_cooling_down=Ваше охлаждение Рад-X находится на уровне
 message.nuclearcraft.scrubber_removal_rate=Скорость удаления радиации:
@@ -3452,8 +3453,8 @@ message.nuclearcraft.radiation_config_info=Радиация включена н�
 message.nuclearcraft.radiation_config_info_jei=Радиация включена на этом сервере! Рекомендуется включить его и на стороне клиента вместе с перезагрузкой, чтобы увидеть все связанные с радиацией элементы в JEI!
 
 death.attack.superfluid_freeze=%1$s был конденсирован Бозе-Эйнштейном
-death.attack.plasma_burn=%1$s был испепелен плазмой
-death.attack.gas_burn=%1$s был мучительно испарен
+death.attack.plasma_burn=%1$s был испепелён плазмой
+death.attack.gas_burn=%1$s был мучительно испарён
 death.attack.steam_burn=%1$s было бы лучше в чайнике
 death.attack.molten_burn=%1$s отправился в ад, но не вернулся
 death.attack.corium_burn=%1$s решили проследить судьбу своего ядерного реактора.
